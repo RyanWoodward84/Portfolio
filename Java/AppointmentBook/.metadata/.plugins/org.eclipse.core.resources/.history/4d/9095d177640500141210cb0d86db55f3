@@ -1,0 +1,10 @@
+package question9_2;
+
+public class AppointmentBookTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

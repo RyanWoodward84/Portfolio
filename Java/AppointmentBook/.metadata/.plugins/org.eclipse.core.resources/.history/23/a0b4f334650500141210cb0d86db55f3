@@ -1,0 +1,24 @@
+package question9_2;
+import question9_1.*;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class AppointmentBookTester
+{
+
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		ArrayList<Appointable> appoints = new ArrayList<Appointable>();
+		boolean userCheck = false;
+
+		System.out.println("Would you like to add an appointment?")
+		while(!userCheck)
+		{
+			System.out.println("Woul")
+		}
+
+
+	}
+
+}

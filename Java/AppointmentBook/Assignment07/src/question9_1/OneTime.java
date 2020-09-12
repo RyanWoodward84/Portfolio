@@ -1,0 +1,61 @@
+package question9_1;
+import question9_2.*;
+
+/**
+ * This class will describe an appointment that occurs once on a date. All instance variables are obtained
+ * from the superclass Appointment
+ * @author Ryan Woodward
+ * @version 1.0
+ *
+ */
+public class OneTime extends Appointment implements Appointable
+{
+
+	/**
+	 * This constructor will create a oneTime appointment usingthe super constructor in order to set
+	 * the instance variables
+	 * @param description The description of the appointment as a String
+	 * @param date The date of the appointment as a String
+	 * @pre It is assumed that the super class constructor is in proper working order
+	 */
+	public OneTime(String description, String date)
+	{
+		super(description,date);
+	}
+
+	/**
+	 * This method will check to see whether the appointment occurs on this day
+	 * @param year The year to be checked as an integer
+	 * @param month The month to be checked as an integer
+	 * @param day The day to be checked as an integer
+	 * @return Returns true if the appointment occurs, false otherwise
+	 */
+	public boolean occursOn(int year, int month, int day)
+	{
+		String date = "" + year;
+		if (month < 10)
+		{
+			date += 0;
+		}
+		date += month;
+		if (day < 10)
+		{
+			date += 0;
+		}
+		date += day;
+		if (date.equals(super.getDate()))
+		{
+			return true;
+		}
+		return false;
+	}
+
+	/**
+	 * This method overrides the toString object method to present a readable description of the object and
+	 * it's state
+	 */
+	public String toString()
+	{
+		return "[" + getDescription() + "]";
+	}
+}

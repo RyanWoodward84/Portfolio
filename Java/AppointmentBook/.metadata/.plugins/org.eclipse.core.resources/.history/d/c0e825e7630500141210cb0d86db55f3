@@ -1,0 +1,5 @@
+package question9_2;
+
+public interface Appointable {
+
+}

@@ -1,0 +1,41 @@
+package question9_1;
+
+public class OneTime extends Appointment
+{
+
+	/**
+	 * This constructor will use the super constructor in order to set the instance variables
+	 * @param description
+	 * @param date
+	 */
+	public OneTime(String description, String date)
+	{
+		super(description,date);
+	}
+
+	/**
+	 * This method will check to see whether the appointment occurs on this day
+	 * @param year The year to be checked as an integer
+	 * @param month The month to be checked as an integer
+	 * @param day The day to be checked as an integer
+	 * @return Returns true if the appointment occurs, false otherwise
+	 */
+	public boolean occursOn(int year, int month, int day)
+	{
+		String date = "" + year + month + day;
+		if (date.equals(getDate()))
+		{
+			return true;
+		}
+		return false;
+	}
+
+	/**
+	 * This method overrides the toString object method to present a readable description of the object and
+	 * it's state
+	 */
+	public String toString()
+	{
+		return "[" + super.getDescription() + "]";
+	}
+}

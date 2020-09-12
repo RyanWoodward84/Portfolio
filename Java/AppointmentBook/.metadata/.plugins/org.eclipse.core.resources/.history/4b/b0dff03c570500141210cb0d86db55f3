@@ -1,0 +1,20 @@
+package question9_1;
+
+public class Monthly extends Appointment
+{
+	/**
+	 * This constructor will instantiate a Monthly object using the super constructor to initialize the
+	 * instance variables
+	 * @param description The description of the appointment as a String
+	 * @param date The description of the appointment as a String
+	 */
+	public Monthly(String description, String date)
+	{
+		super(description, date);
+	}
+
+	public boolean occursOn(int year, int month, int day)
+	{
+
+	}
+}

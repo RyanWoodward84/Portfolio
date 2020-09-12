@@ -1,0 +1,20 @@
+package question9_1;
+
+public class OneTime extends Appointment
+{
+
+	/**
+	 * This constructor will use the super constructor in order to set the instance variables
+	 * @param description
+	 * @param date
+	 */
+	public OneTime(String description, String date)
+	{
+		super(description,date);
+	}
+
+	public occursOn(int year, int month, int day)
+	{
+
+	}
+}

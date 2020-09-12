@@ -1,0 +1,9 @@
+package question9_1;
+
+public class OneTime extends Appointment
+{
+	public OneTime(String description, String date)
+	{
+		super(description,date);
+	}
+}

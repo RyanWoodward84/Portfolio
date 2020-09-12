@@ -1,0 +1,59 @@
+package question9_2;
+import question9_1.*;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class AppointmentBookTester
+{
+
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		String userInputCheck = "";
+		ArrayList<Appointable> appoints = new ArrayList<Appointable>();
+		boolean userCheck = false;
+
+		System.out.print("Would you like to add an appointment? (y for yes, anything else exits): ");
+		userInputCheck = input.nextLine();
+		if (userInputCheck.charAt(0) == 'y' || userInputCheck.charAt(0) == 'Y')
+		{
+			userCheck = true;
+		}
+		System.out.println();
+
+		while(userCheck)
+		{
+			//Asking user for appointment type
+			String apptType = "";
+			System.out.print("Please enter the type of Appointment (OneTime, Daily, or Monthly): ");
+			apptType = input.nextLine();
+
+			if(appointCheck(apptType))
+			{
+				String apptDesc= "";
+				System.out.print("Please enter an appointment description: ");
+				apptDesc += input.nextLine();
+				System.out.println();
+				System.out.print("Please enter the appointment date in YYYYMMDD format");
+
+
+			}
+
+
+
+		}
+
+
+		input.close();
+	}
+
+	public static boolean appointCheck(String check)
+	{
+		if(check.equals("Monthly") || check.equals("OneTime") || check.equals("Daily"))
+		{
+			return true;
+		}
+		return false;
+	}
+
+}

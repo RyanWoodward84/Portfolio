@@ -1,0 +1,6 @@
+package question9_2;
+
+public interface Appointable
+{
+	boolean occursOn(int year, int month, int day);
+}

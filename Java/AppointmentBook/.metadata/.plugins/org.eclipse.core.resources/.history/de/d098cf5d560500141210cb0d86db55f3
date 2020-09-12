@@ -1,0 +1,15 @@
+package question9_1;
+
+public class Daily extends Appointment
+{
+	/**
+	 * This constructor will create a Daily appointment, using the super constructor to initialize the instance
+	 * variables
+	 * @param description The description of the appointment as a String
+	 * @param date The date of the appointment as a String
+	 */
+	public Daily(String description, String date)
+	{
+		super(description, date);
+	}
+}

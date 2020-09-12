@@ -1,0 +1,92 @@
+package question9_2;
+import question9_1.*;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class AppointmentBookTester
+{
+
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		String userInputCheck = "";
+		ArrayList<Appointable> appoints = new ArrayList<Appointable>();
+		boolean userCheck = false;
+
+		System.out.print("Would you like to add an appointment? (y for yes, anything else exits): ");
+		userInputCheck = input.nextLine();
+		if (userInputCheck.charAt(0) == 'y' || userInputCheck.charAt(0) == 'Y')
+		{
+			userCheck = true;
+		}
+		System.out.println();
+
+		while(userCheck)
+		{
+			//Asking user for appointment type
+			String apptType = "";
+			System.out.print("Please enter the type of Appointment (OneTime, Daily, or Monthly): ");
+			apptType = input.nextLine();
+
+			//Error Checking on the appointment type entry
+			if (!appointCheck(apptType))
+			{
+				System.out.println("Incorrect Appointment type entered");
+			}
+			else
+			{
+				//Asking for appointment Description
+				String apptDesc = "";
+				String apptDate = "";
+				System.out.print("Please enter an appointment description: ");
+				apptDesc += input.nextLine();
+				System.out.println();
+
+				//Asking for user date
+				do
+				{
+					System.out.print("Please enter the appointment date in YYYYMMDD format");
+					apptDate = input.nextLine();
+				}
+				while (!dateCheck(apptDate));
+
+
+			}
+
+
+
+		}
+
+
+		input.close();
+	}
+
+	public static boolean appointCheck(String check)
+	{
+		if(check.equals("Monthly") || check.equals("OneTime") || check.equals("Daily"))
+		{
+			return true;
+		}
+		return false;
+	}
+
+	public static boolean dateCheck(String date)
+	{
+		for(int i = 0; i < date.length(); i++)
+		{
+			if(!Character.isDigit(date.charAt(i)))
+			{
+				return false;
+			}
+		}
+
+		//Checking to make sure the length the user enter is 8
+		if (date.length() != 8)
+		{
+			return false;
+		}
+		return true;
+	}
+
+}

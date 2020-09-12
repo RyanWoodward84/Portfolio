@@ -1,0 +1,21 @@
+package question9_1;
+
+public class AppointmentTester
+{
+
+	public static void main(String[] args)
+	{
+		final int NUM_OF_APPTS = 6;
+
+		Appointment[] appointments = new Appointment[NUM_OF_APPTS];
+
+		OneTime ot1 = new OneTime("Dentist", "20140706");
+		OneTime ot2 = new OneTime("Doctor", "20140703");
+		Monthly monthly1 = new Monthly("Chiropractor", "20130917");
+		Monthly monthly2 = new Monthly("Massage", "20140816");
+		Daily daily1 = new Daily("School", "20140707");
+		Daily daily2 = new Daily("Work", "20140707");
+
+	}
+
+}

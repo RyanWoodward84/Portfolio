@@ -1,0 +1,126 @@
+package question9_2;
+import question9_1.*;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class AppointmentBookTester
+{
+
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		String userInputCheck = "";
+		ArrayList<Appointable> appoints = new ArrayList<Appointable>();
+		boolean userCheck = false;
+
+		System.out.print("Would you like to add an appointment? (y for yes, anything else exits): ");
+		userInputCheck = input.nextLine();
+
+		if (userInputCheck.charAt(0) == 'y' || userInputCheck.charAt(0) == 'Y')
+		{
+			userCheck = true;
+		}
+
+		System.out.println();
+
+		while(userCheck)
+		{
+			//Asking user for appointment type
+			String apptType = "";
+			String apptDesc = ""; //Need to put in method
+			String apptDate = ""; //Need to put in method
+
+			do
+			{
+				System.out.println("Please choose an appointment type");
+				System.out.println("1 for OneTime");
+				System.out.println("2 for Daily");
+				System.out.println("3 for Monthly");
+
+				apptType = input.nextLine();
+
+			} while (!typeCheck(apptType));
+
+			//Creating a switch statement to display a controllable menu
+			int apptInt = Integer.parseInt(apptType);
+
+			switch(apptInt)
+			{
+				case 1: appoints.add(new OneTime(getUserDescription(), getUserDate()));
+			}
+
+
+		input.close();
+		}
+	}
+
+
+	public static boolean dateCheck(String date)
+	{
+		for(int i = 0; i < date.length(); i++)
+		{
+			if(!Character.isDigit(date.charAt(i)))
+			{
+				System.out.println("Error: Only digits may be entered as a date");
+				return false;
+			}
+		}
+
+		//Checking to make sure the length the user enter is 8
+		if (date.length() != 8)
+		{
+			System.out.println("Error: Only enter 8 digits in a YYYYMMDD format");
+			return false;
+		}
+		return true;
+	}
+
+	public static boolean typeCheck(String type)
+	{
+		for(int i = 0; i < type.length(); i++)
+		{
+			if(!Character.isDigit(type.charAt(i)))
+			{
+				System.out.println("Incorrect Entry, must be a only digits.");
+				return false;
+			}
+		}
+		int typeInt = Integer.parseInt(type);
+		if (typeInt < 1 || typeInt > 3)
+		{
+			System.out.println("Incorrect Entry: Must be between 1 and 3");
+			return false;
+		}
+
+		return true;
+	}
+
+	public static String getUserDecription()
+	{
+		Scanner input = new Scanner(System.in);
+		String description = "";
+		System.out.print("Please enter a description for your appointment");
+		description = input.nextLine();
+		input.close();
+		System.out.println();
+
+		return description;
+	}
+
+	public static String getUserDate()
+	{
+		Scanner input = new Scanner(System.in);
+		String date = "";
+		boolean dateCheck = false;
+		do
+		{
+			System.out.print("Please enter a date: ");
+			date = input.nextLine();
+
+		} while (!dateCheck(date));
+
+		return date;
+
+	}
+}

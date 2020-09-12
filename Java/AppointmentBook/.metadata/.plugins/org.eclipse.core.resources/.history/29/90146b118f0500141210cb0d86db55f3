@@ -1,0 +1,86 @@
+package question9_2;
+import question9_1.*;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class AppointmentBookTester
+{
+
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		String userInputCheck = "";
+		ArrayList<Appointable> appoints = new ArrayList<Appointable>();
+		boolean userCheck = false;
+
+		System.out.print("Would you like to add an appointment? (y for yes, anything else exits): ");
+		userInputCheck = input.nextLine();
+
+		if (userInputCheck.charAt(0) == 'y' || userInputCheck.charAt(0) == 'Y')
+		{
+			userCheck = true;
+		}
+
+		System.out.println();
+
+		while(userCheck)
+		{
+			//Asking user for appointment type
+			String apptType = "";
+			String apptDesc = "";
+			String apptDate = "";
+
+			System.out.println("Please choose an appointment type");
+			System.out.println("1 for OneTime");
+			System.out.println("2 for Daily");
+			System.out.println("3 for Monthly");
+
+			if(typeCheck(apptType))
+			{
+
+			}
+
+
+
+
+
+
+
+		}
+
+
+		input.close();
+	}
+
+
+	public static boolean dateCheck(String date)
+	{
+		for(int i = 0; i < date.length(); i++)
+		{
+			if(!Character.isDigit(date.charAt(i)))
+			{
+				return false;
+			}
+		}
+
+		//Checking to make sure the length the user enter is 8
+		if (date.length() != 8)
+		{
+			return false;
+		}
+		return true;
+	}
+
+	public static boolean typeCheck(String type)
+	{
+		for(int i = 0; i < type.length(); i++)
+		{
+			if(!Character.isDigit(type.charAt(i)))
+			{
+				return false;
+			}
+		}
+		return true;
+	}
+}

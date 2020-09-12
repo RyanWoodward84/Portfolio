@@ -1,0 +1,14 @@
+package question9_1;
+
+public class AppointmentTester
+{
+
+	public static void main(String[] args)
+	{
+		final int NUM_OF_APPTS = 6
+
+		Appointment[] appointments = new Appointment[6];
+
+	}
+
+}

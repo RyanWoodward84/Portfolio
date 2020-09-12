@@ -1,0 +1,37 @@
+package question9_1;
+import java.util.Scanner;
+
+public class AppointmentTester
+{
+
+	public static void main(String[] args)
+	{
+		final int NUM_OF_APPTS = 6;
+		Scanner input = new Scanner(System.in);
+		String userDate = "";
+
+		//Setting up the Appointments array and creating the objects necessary
+		Appointment[] appointments = new Appointment[NUM_OF_APPTS];
+
+		OneTime ot1 = new OneTime("Dentist", "20140706");
+		OneTime ot2 = new OneTime("Doctor", "20140703");
+		Monthly monthly1 = new Monthly("Chiropractor", "20130917");
+		Monthly monthly2 = new Monthly("Massage", "20140816");
+		Daily daily1 = new Daily("School", "20140707");
+		Daily daily2 = new Daily("Work", "20140707");
+
+		appointments[0] = ot1;
+		appointments[1] = ot2;
+		appointments[2] = monthly1;
+		appointments[3] = monthly2;
+		appointments[4] = daily1;
+		appointments[5] = daily2;
+
+		//Asking user for date
+		System.out.print("Please enter a date with the YYYYMMDD format: ");
+		userDate = input.nextLine();
+
+
+	}
+
+}

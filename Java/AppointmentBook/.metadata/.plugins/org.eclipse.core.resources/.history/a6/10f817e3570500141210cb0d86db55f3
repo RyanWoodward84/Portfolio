@@ -1,0 +1,12 @@
+package question9_1;
+
+public class AppointmentTester
+{
+
+	public static void main(String[] args)
+	{
+		Appointment[] appointments = new Appointment[6];
+
+	}
+
+}

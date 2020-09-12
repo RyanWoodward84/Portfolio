@@ -1,0 +1,14 @@
+package question9_2;
+import question9_1.*;
+import java.util.ArrayList;
+
+public class AppointmentBookTester
+{
+
+	public static void main(String[] args)
+	{
+		ArrayList<Appointable> appoints = new ArrayList<Appointable>();
+
+	}
+
+}
