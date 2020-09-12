@@ -1,0 +1,42 @@
+import javax.swing.*;
+import java.util.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class GamePieces extends GameFrame
+{		
+	public GamePieces(int piece)
+	{
+		text = "" + (piece + 1);
+		pieceNumber = piece;
+		isSelected = false;
+		
+		button = new JButton(text);
+		
+		class turnListener implements ActionListener
+		{
+			public void actionPerformed(ActionEvent event)
+			{
+				isSelected = true;
+				if (getPlayer())
+					text = "P1";
+				else
+				{
+					text = "P2";
+				}
+			}
+			ActionListener listener = new turnListener();
+			button.addActionListener(listener);
+		}
+	}
+	
+	public JButton getButton()
+	{
+		return button;
+	}
+	
+	private String text;
+	private JButton button;
+	private int pieceNumber;
+	private boolean isSelected;
+}

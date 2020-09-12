@@ -1,0 +1,24 @@
+import javax.swing.*;
+import java.util.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class GamePieces
+{		
+	public GamePieces(int piece)
+	{
+		String text = "" + (piece + 1);
+		pieceNumber = piece;
+		isSelected = false;
+		button = new JButton(text);
+	}
+	
+	public JButton getButton()
+	{
+		return button;
+	}
+	
+	private JButton button;
+	private int pieceNumber;
+	private boolean isSelected;
+}

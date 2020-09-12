@@ -1,0 +1,12 @@
+
+public class GamePieces
+{		
+	public GamePieces()
+	{
+		
+		
+		
+	}
+	
+	private boolean isSelected;
+}

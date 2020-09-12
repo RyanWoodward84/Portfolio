@@ -1,0 +1,72 @@
+import javax.swing.*;
+import java.util.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class GameFrame extends JFrame 
+{
+	public GameFrame()
+	{
+		createControlPanel();
+		setSize(FRAME_WIDTH, FRAME_HEIGHT);
+	}
+	
+	public void createControlPanel()
+	{
+		mainBoard = new JPanel();
+		gameBoard = new JPanel();
+		
+		mainBoard.setLayout(new BorderLayout());
+		gameBoard.setLayout(new GridLayout(5,4));
+		
+		player = new JButton("Player 1");
+
+		gameBoard.add(player);
+		
+//This part controls the button for the player selector and increases the player counter by 1		
+		class playerListener implements ActionListener
+		{
+			public void actionPerformed(ActionEvent event)
+			{
+				String text = (String)event.getActionCommand();
+				if (text.equals("Player 1"))
+				{
+					player.setText("Player 2");
+				}
+				else if (text.equals("Player 2"))
+				{
+					player.setText("Player 1");
+				}
+				playerCounter++;
+			}
+		}
+		
+		ActionListener listener = new playerListener();
+		player.addActionListener(listener);
+		
+		add(gameBoard, BorderLayout.CENTER);
+		add(player, BorderLayout.SOUTH);
+		
+		
+	}
+	
+	public void createButtons()
+	{
+		ArrayList<GamePieces> pieces = new ArrayList<GamePieces>();
+		
+		for (int i = 1; i <= 20; i++)
+		{
+			
+		}
+
+	}
+	
+	private JPanel mainBoard;
+	private JPanel gameBoard;
+	private JLabel title;
+	private JButton player;
+	private int playerCounter = 0;
+	
+	private static final int FRAME_WIDTH = 500;
+	private static final int FRAME_HEIGHT = 500;
+}

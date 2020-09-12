@@ -1,0 +1,13 @@
+
+public class GamePieces
+{		
+	public GamePieces(int piece)
+	{
+		pieceNumber = piece
+		
+		
+	}
+	
+	private int pieceNumber;
+	private boolean isSelected;
+}
