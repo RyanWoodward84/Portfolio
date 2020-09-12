@@ -1,0 +1,33 @@
+package question1;
+
+public class BillFold
+{
+	private Card card1;
+	private Card card2;
+
+	public BillFold()
+	{
+		card1 = null;
+		card2 = null;
+	}
+	public void addCard(Card newCard)
+	{
+		if (card1 == null)
+		{
+			card1 = newCard;
+		}
+		else if (card2 == null)
+		{
+			card2 = newCard;
+		}
+		else
+		{
+			System.out.println("No effects, both cards are not null");
+		}
+	}
+
+	public String formatCards()
+	{
+		return card1.format() + card2.format();
+	}
+}

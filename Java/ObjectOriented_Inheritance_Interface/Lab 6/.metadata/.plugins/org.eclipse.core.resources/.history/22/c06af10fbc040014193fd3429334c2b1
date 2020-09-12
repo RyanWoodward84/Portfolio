@@ -1,0 +1,12 @@
+package question3;
+
+/**
+ * This interface will provide the method header that each the Dog and the Cat class will implement in order
+ * to be able to use either method when running through an enhanced for loop and encountering each object
+ * @author Ryan
+ *
+ */
+public interface Speakable
+{
+	void speak();
+}

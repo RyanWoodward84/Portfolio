@@ -1,0 +1,20 @@
+package question1;
+
+public class CallingCard extends Card
+{
+	private int cardNumber;
+	private int pin;
+
+	public CallingCard(String n, int inputNumber, int inputPin)
+	{
+		super(n);
+		cardNumber = inputNumber;
+		pin = inputPin;
+	}
+
+	public int getCardNumber()
+	{
+		return cardNumber;
+	}
+
+}

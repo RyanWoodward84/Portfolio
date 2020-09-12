@@ -1,0 +1,5 @@
+Answer for question 1.8
+
+Since  the ID card and the calling card don't expire it's clear they don't need to have the isExpired() method
+from the card class overridden. Therefore it only makes sense to place the appropriate override in Driver's License. For
+the time being that is the only class that requires the isExpired() method to be overridden.

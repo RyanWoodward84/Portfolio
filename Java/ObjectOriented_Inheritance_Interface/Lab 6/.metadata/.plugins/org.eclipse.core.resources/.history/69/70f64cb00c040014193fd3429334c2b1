@@ -1,0 +1,80 @@
+package question1;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+/**
+ * This class defines a Driver's License. It extends the IDCard class and specializes it further by adding an
+ * expiration year instance variable
+ * @author Ryan
+ *
+ */
+public class DriverLicense extends IDCard
+{
+	private int expYear;
+
+	/**
+	 * Default constructor for DriverLicense will initialize everything to 0
+	 * @pre The super class IDCard must have a working default constructor
+	 */
+	public DriverLicense()
+	{
+		super();
+		expYear = 0;
+	}
+
+	/**
+	 * This will construct a DriverLicense initializing the expYear
+	 * @param inputExp
+	 * @pre The super class IDCard must have a working default constructor
+	 */
+	public DriverLicense(int inputExp)
+	{
+		super();
+		expYear = inputExp;
+	}
+
+	/**
+	 * This constructor will initialize all the instance variables according to the explicit parameter
+	 * @param n Is used in a super constructor call to initialize the name on the card
+	 * @param id Is used in a super constructor call to initialize the id number on the card
+	 * @param inputExp Initializes the instance variable expYear
+	 * @pre The super constructor must be in working order
+	 */
+	public DriverLicense(String n, int id, int inputExp)
+	{
+		super(n, id);
+		expYear = inputExp;
+	}
+
+	/**
+	 * This method will return the expiration year of the card
+	 * @return The value of the instance variable expYear as an integer
+	 */
+	public int getExpYear()
+	{
+		return expYear;
+	}
+
+	/**
+	 * This method will override the super class ID card method. It will first call the super class method, and then
+	 * add on it's own format structure as a String.
+	 * @pre The super class format method must be in working order
+	 */
+
+	public boolean isExpired()
+	{
+		GregorianCalendar calendar = new GregorianCalendar();
+		int year = calendar.get(Calendar.YEAR);
+		if (expYear < year)
+		{
+			return true;
+		}
+		return false;
+	}
+	public String format()
+	{
+		String temp = super.format();
+		temp += "Expiration Year: " + expYear + "\n";
+		return temp;
+	}
+}

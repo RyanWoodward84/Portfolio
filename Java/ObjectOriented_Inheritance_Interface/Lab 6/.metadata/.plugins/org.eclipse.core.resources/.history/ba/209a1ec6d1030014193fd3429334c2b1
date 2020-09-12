@@ -1,0 +1,51 @@
+package question1;
+
+/**
+ * This class inherits from the Card class and specializes it further into an ID card, adding an id number as
+ * an instance variable
+ * @author Ryan Woodward
+ * @version 1.0
+ *
+ */
+public class IDCard extends Card
+{
+	private int idNumber;
+
+	/**
+	 * Default constructor for IDcard
+	 * @pre The default constructor for the super class Card must be working properly
+	 * @post Will instantiate an IDCard object
+	 */
+	public IDCard()
+	{
+		super();
+		idNumber = 0;
+	}
+
+	/**
+	 * Will construct an IDCard and initialize the variables with the explicit parameters passed
+	 * @param n This is the name of the member on the card, calls the super constructor to initialize that variable
+	 * @param id This is the id number on the id card as an integer
+	 */
+	public IDCard(String n, int id)
+	{
+		super(n);
+		idNumber = id;
+	}
+
+	/**
+	 * This method will return the value of the idNumber variable
+	 * @return Returns the value of the idNumber as an int
+	 */
+	public int getIdNumber()
+	{
+		return idNumber;
+	}
+
+	public String format()
+	{
+		String temp = super.format();
+		temp += "\nID Number: " + idNumber;
+		return temp;
+	}
+}

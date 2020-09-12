@@ -1,0 +1,19 @@
+package question1;
+
+public class BillFoldTest {
+
+	public static void main(String[] args)
+	{
+		BillFold billFold1 = new BillFold();
+
+		DriverLicense driverLicense1 = new DriverLicense("Ryan Woodward", 100201137, 2014);
+		CallingCard callingCard1 = new CallingCard("Call to Calgary", 5555555, 1234567);
+
+		billFold1.addCard(driverLicense1);
+		billFold1.addCard(callingCard1);
+
+		System.out.println(billfold1.format());
+
+	}
+
+}

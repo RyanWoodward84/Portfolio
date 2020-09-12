@@ -1,0 +1,24 @@
+package question1;
+
+public class DriverLicense extends IDCard
+{
+	private int expYear;
+
+	public DriverLicense()
+	{
+		super();
+		expYear = 0;
+	}
+
+	public DriverLicense(int inputExp)
+	{
+		super();
+		expYear = inputExp;
+	}
+
+	public DriverLicense(String n, int id, int inputExp)
+	{
+		super(n, id);
+		expYear = inputExp;
+	}
+}

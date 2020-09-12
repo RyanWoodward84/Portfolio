@@ -1,0 +1,53 @@
+package question1;
+
+/**
+ * This class contains a driver method that will test out the BillFold class
+ * @author Ryan Woodward
+ * @version 1.0
+ *
+ */
+public class BillFoldTest {
+
+	/**
+	 * This is the main driver method that will test out the BillFold class.
+	 * @param args Command line arguments are not used
+	 */
+	public static void main(String[] args)
+	{
+		BillFold billFold1 = new BillFold();
+
+		System.out.println(billFold1.formatCards());
+		System.out.println("Expected: Both cards are null");
+
+		DriverLicense driverLicense1 = new DriverLicense("Ryan Woodward", 100201137, 2013);
+		CallingCard callingCard1 = new CallingCard("Call to Calgary", 5555555, 1234567);
+		CallingCard callingCard2 = new CallingCard("Call to Oregaon", 4444444, 8901234);
+
+
+
+		billFold1.addCard(driverLicense1);
+		System.out.println(billFold1.formatCards());
+		System.out.println("Expected: Card Holder: Ryan Woodward\nID Number: 100201137\nExpriationYear2014"
+				+ "\n\n Card2 is not set");
+
+		billFold1.addCard(callingCard1);
+		System.out.println(billFold1.formatCards());
+		System.out.println("Expected: Card Holder: Ryan Woodward\nID Number: 100201137\nExpirationYear2014"
+				+ "\n\nCard holder: Call to Calgary\nCard Number: 5555555\nPIN: 1234567");
+
+		billFold1.addCard(callingCard2);
+		System.out.println("Expected: No effects, both cards are set");
+
+		System.out.println("The number of expired cards are " + billFold1.getExpiredCardCount());
+		System.out.println("Expected: 1");
+		System.out.println();
+
+		System.out.println("Testing out toString methods");
+		System.out.println(driverLicense1);
+		System.out.println("Expected:DriverLicense[name=Ryan Woodward][number=100201137][ExpiryDate=2013]");
+		System.out.println(callingCard1);
+		System.out.println("Expected:CallingCard[name=Call to Calgary][number=5555555,pin=1234567");
+
+	}
+
+}

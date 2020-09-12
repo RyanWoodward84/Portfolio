@@ -1,0 +1,68 @@
+package question1;
+
+/**
+ * This CallingCard class will inherit from the super class Card, and specialize it further with the instance
+ * variables cardNumber and pin
+ * @author Ryan Woodward
+ * @version 1.0
+ *
+ */
+public class CallingCard extends Card
+{
+	private int cardNumber;
+	private int pin;
+
+	/**
+	 * This constructor will initialize the instance variables according to the explicit parameters passed.
+	 * @param n Used to call the super constructor with one parameter in it's signature
+	 * @param inputNumber Will initialize the cardNumber instance variable
+	 * @param inputPin Will initialize the pin instance variable
+	 */
+	public CallingCard(String n, int inputNumber, int inputPin)
+	{
+		super(n);
+		cardNumber = inputNumber;
+		pin = inputPin;
+	}
+
+	/**
+	 * This method will return the card number variable
+	 * @return The value of the instance variable card number as an int
+	 */
+	public int getCardNumber()
+	{
+		return cardNumber;
+	}
+
+	/**
+	 * This method will return the pin variable
+	 * @return The value of the instance variable pin as an int
+	 */
+	public int getPin()
+	{
+		return pin;
+	}
+
+	/**
+	 * This method will override the super class format method. It will first call the super class format method,
+	 * and then will add on it's own format structure.
+	 * @pre The super class format method must be in working order
+	 */
+	public String format()
+	{
+		String temp = super.format();
+		temp += "Card Number: " + cardNumber +"\nPIN: " + pin + "\n";
+		return temp;
+	}
+
+	/**
+	 *This method will overrise the super class toString method. It will first call the super class toString method
+	 *and then will add on the details of the instance variables to complete the string
+	 *@return Will return a string describing the state of the object
+	 *@pre It is assumed the super class toString method is in working order
+	 */
+	public String toString()
+	{
+		return super.toString() + "number=" + cardNumber + ",pin=" + pin + "]";
+	}
+}

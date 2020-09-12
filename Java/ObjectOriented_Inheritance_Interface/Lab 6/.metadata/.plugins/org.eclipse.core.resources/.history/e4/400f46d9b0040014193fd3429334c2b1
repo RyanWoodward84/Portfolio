@@ -1,0 +1,21 @@
+package question2;
+
+public class ASubClass extends AClass
+{
+	private int asprivate;
+	protected int asprotected;
+	public int aspublic;
+	int aspackage;
+
+	/**
+	 * Think about these declarations
+	 */
+	BClass bobj = new BClass();
+	CClass cobj = new CClass();
+
+	/**
+	 * Constructor for objects of class ASubClass
+	 */
+
+
+}

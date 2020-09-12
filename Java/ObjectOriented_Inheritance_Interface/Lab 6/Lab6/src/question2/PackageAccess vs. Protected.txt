@@ -1,0 +1,7 @@
+How does package access variables differ from protected access variables?
+
+Package access variables allow visiblity to anyone within the same class or package. Protected access variables
+allow visiblity to anyone within the same class, package, or subclass. This would mean that the default access
+variable would not allow you to see these variables if you are in a subclass. As a side note, although these variables
+are visible within the same package for both package access and protected, in both cases the variables are not visible
+if they are a part of a subpackage.

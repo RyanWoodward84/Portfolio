@@ -1,0 +1,27 @@
+package question3;
+
+/**
+ * This class will represent a dog
+ * @author Ryan Woodward
+ * @version 1.0
+ *
+ */
+public class Cat implements Speakable
+{
+	private String name;
+
+	public Cat(String name)
+	{
+		this.name = name;
+	}
+
+	public void speak()
+	{
+		System.out.println("Meow! Meow!");
+	}
+
+	public String toString()
+	{
+		return "Cat: " + name;
+	}
+}

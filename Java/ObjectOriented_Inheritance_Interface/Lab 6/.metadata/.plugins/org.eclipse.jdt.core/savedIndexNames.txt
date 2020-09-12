@@ -1,0 +1,2 @@
+INDEX VERSION 1.126+C:\Users\Ryan\Documents\School\CPSC 1181\Labs\Lab 6\.metadata\.plugins\org.eclipse.jdt.core
+996610041.index

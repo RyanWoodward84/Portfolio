@@ -1,0 +1,50 @@
+package question2;
+import question2.temp.*;
+
+public class AClass
+{
+	private int aprivate;
+	protected int aprotected;
+	public int apublic;
+	int apackage;
+	static int noAObjects = 0;
+
+	BClass bobj = new BClass();
+	CClass cobj = new CClass();
+
+	/**
+	 * Constructor for objects of class AClass
+	 */
+	public AClass()
+	{
+		//Initialize instance variables
+		aprivate = 1;
+		aprotected = 2;
+		apublic = 3;
+		apackage = 4;
+		noAObjects ++;
+	}
+
+	public int addem()
+	{
+		System.out.println(bobj.bprivate);
+		//This line will not print out because bprivate is a private variable to the BClass. It is only visible within
+		//that class
+		System.out.println(bobj.bprotected);
+		//This line will print out because protected instance variables are visible within the same package
+		System.out.println(bobj.bpublic);
+		//This line will print out because public instance variables are visible everywhere
+		System.out.println(bobj.bpackage);
+		//This line will print out. Because no access specifer was provided, java has assigned the variable
+		//"package access" which opens it up to modification from any class within the same package
+		System.out.println(cobj.cprivate);
+		//This line will not print out because cprivate is a private instance variable. It is only visible within
+		//that class
+		System.out.println(cobj.cprotected);
+		//This line will not print out because the cprotected instance variable is only visible within the package
+		//and not the subpackage in this case
+		//System.out.println(cobj.cpublic);
+		//System.out.println(cobj.cpackage);
+		return aprivate + aprotected + apublic + apackage;
+	}
+}

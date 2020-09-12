@@ -1,0 +1,7 @@
+Answer to Question 1.6
+
+Since both card1 and card2 share the same superclass they can be passed to added to BillFold using the addCard method.
+The addCard method of BillFold accepts one expicit parameter of type Card class. Since both card1 and card2, representing
+DriverLicense and CallingCard respectively, are subclasses of type Card they are legally allowed to be passed due to
+the substition principle. Polymorphism occurs since the cardFormat method processes using both card1 and card2 which are of
+different types

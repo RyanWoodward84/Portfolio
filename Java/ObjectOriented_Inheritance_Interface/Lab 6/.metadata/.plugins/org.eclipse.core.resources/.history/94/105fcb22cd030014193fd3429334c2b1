@@ -1,0 +1,13 @@
+package question1;
+
+public class IDCard extends Card
+{
+	private int idNumber;
+
+	public IDCard(String n, int id)
+	{
+		super(n);
+		idNumber = id;
+	}
+
+}

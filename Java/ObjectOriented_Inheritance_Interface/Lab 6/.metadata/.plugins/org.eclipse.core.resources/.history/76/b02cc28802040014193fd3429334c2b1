@@ -1,0 +1,68 @@
+package question1;
+
+/**
+ * This class will create a virtual billFold containing two cards. The cards could be of type Card, IDCard, CallingCard
+ * or drivers license
+ * @author Ryan Woodward
+ * @version 1.0
+ *
+ */
+public class BillFold
+{
+	private Card card1;
+	private Card card2;
+
+	/**
+	 * This default constructor will create a set each instance variable of card to null
+	 */
+	public BillFold()
+	{
+		card1 = null;
+		card2 = null;
+	}
+
+	/**
+	 * This method will set either of the instance variables card1 or card2, or it will output a message stating that
+	 * each card as already been set
+	 * @param newCard The type of card that will be set to card1 or card2
+	 * @pre It is assumed that the class being passed will either be of type card or a subclass of card
+	 * @post Will set card1 if it is not null, will set card2 if card1 is set and card2 is null, if both are set it
+	 * 			will simply print an output message stating that they are set
+	 */
+	public void addCard(Card newCard)
+	{
+		if (card1 == null)
+		{
+			card1 = newCard;
+		}
+		else if (card2 == null)
+		{
+			card2 = newCard;
+		}
+		else
+		{
+			System.out.println("No effects, both cards are not null");
+		}
+	}
+
+	/**
+	 * This method will print the format of each card by calling the format method of each card
+	 * @return Will return a string containing the formats of both card1 and card2 if both are not null. If card1 is set
+	 * 			but card2 is null, only the format of card1 will be printed, neither will be printed if both are null
+	 */
+	public String formatCards()
+	{
+		if(card1 != null && card2 != null)
+		{
+			return card1.format() + card2.format();
+		}
+		else if(card1 != null)
+		{
+			return card1.format() + "\nCard 2 is not set";
+		}
+		else
+		{
+			return "Both cards are null";
+		}
+	}
+}
