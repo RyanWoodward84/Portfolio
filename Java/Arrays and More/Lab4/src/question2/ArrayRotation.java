@@ -1,0 +1,60 @@
+package question2;
+
+/** This program will rotate the elements of the array wrapping the numbers if the exceed the length
+ *
+ * @author Ryan Woodward
+ * @version 1.0
+ *
+ */
+public class ArrayRotation
+{
+
+	public static void main(String[] args)
+	{
+		double[] x = {8, 4, 5, 21, 7, 9, 18, 2, 100};
+		System.out.println("Before rotation: ========================");
+		for (int i = 0; i < x.length; i++)
+		{
+			System.out.println("x[" + i + "]: " + x[i]);
+		}
+		x = rotate(x, 3);
+		System.out.println("After rotation: =========================");
+		for (int i = 0; i < x.length; i++)
+		{
+			System.out.println("x[" + i + "]: " + x[i]);
+		}
+
+	}
+
+	/**This method will rotate and return the elements of an array as a new array
+	 * given a rotation amount
+	 *
+	 * @param original The original array to be passed
+	 * @param rotateAmount The amount the array is to be rotated
+	 * @param temp	This will store the last element in the array
+	 * @return newArray is to be returned after it is modified
+	 */
+	private static double[] rotate(double[] original, int rotateAmount)
+	{
+		double[] newArray = new double[original.length];
+
+		//Copying original array
+		for (int i = 0; i < original.length; i++)
+		{
+			newArray[i] = original[i];
+		}
+
+		//Shifting the elements of the array left by 1
+		for(int i = 0; i < rotateAmount; i++)
+		{
+			double temp = newArray[0];
+			for(int j = 1; j < original.length; j++)
+			{
+				newArray[j - 1] = newArray[j];
+			}
+			newArray[original.length - 1] = temp;
+		}
+
+		return newArray;
+	}
+}

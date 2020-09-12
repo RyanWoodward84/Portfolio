@@ -1,0 +1,16 @@
+package question4;
+
+/** Will declare an ArrayList of type String and has 5 customers
+ *
+ * @author Ryan Woodward
+ * @version 1.0
+ *
+ */
+public class CustomerLister {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

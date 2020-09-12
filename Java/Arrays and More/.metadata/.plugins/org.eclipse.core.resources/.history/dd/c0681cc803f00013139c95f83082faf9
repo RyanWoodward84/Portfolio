@@ -1,0 +1,64 @@
+package question5;
+
+public class Peevish
+{
+
+	public static void main(String[] args)
+	{
+		boolean[] door;
+		final int NODOORS = 101;
+		// We will not use door[0]
+		final boolean OPEN = true;
+		final boolean CLOSED = false;
+		// Initialize the doors
+		door = new boolean[NODOORS];
+		for (int i = 0; i < NODOORS; i++)
+		{
+			door[i] = CLOSED;
+		}
+		//Printing the state of each door
+		printDoors(door, NODOORS);
+
+		for (int i = 1; i < NODOORS	; i++)
+		{
+			System.out.println("Door " + i +": " + door[i]);
+		}
+		for (int i = 1; i < NODOORS; i++)
+		{
+			if (door[i])
+			{
+				System.out.println("Door " + i + " is open.");
+			} else
+			{
+				System.out.println("Door " + i + " is closed.");
+			}
+		}
+	}
+
+	private static void printDoors(boolean[] door, final int NODOORS)
+	{
+		for (int i = 1; i < NODOORS	; i++)
+		{
+			System.out.println("Door " + i +": " + door[i]);
+		}
+	}
+
+	private static void stateDoors(boolean[] door, final int NODOORS, int noPasses)
+	{
+		for (int i = 1; i < noPasses; i++)
+		{
+			for(int j = i; j < NODOORS; j+=i)
+			{
+				if (door[j])
+				{
+					door[j] = false;
+				}
+				else
+				{
+					door[j] = true;
+				}
+			}
+		}
+	}
+
+}

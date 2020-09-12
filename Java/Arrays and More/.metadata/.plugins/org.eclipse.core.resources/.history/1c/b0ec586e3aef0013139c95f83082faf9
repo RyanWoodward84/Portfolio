@@ -1,0 +1,31 @@
+package question1;
+
+/** Will create a basic array and experiment with it
+ *
+ * @author Ryan Woodward
+ * @version 1.0
+ *
+ */
+public class ArrayBasic
+{
+
+	/**
+	 *
+	 * @param x	-	array to be worked on
+	 */
+	public static void main(String[] args)
+	{
+
+		int[] x = { 8, 4, 5, 21, 7, 9, 18, 2, 100};
+		System.out.println("Array x length: " + x.length);
+		System.out.println("Expected: 9");
+		System.out.println("Array x first element: " + x[0]);
+		System.out.println("Expected: 8");
+		System.out.println("Array x last element: " + x[x.length - 1]);
+		System.out.println("Expected: 100");
+		System.out.println("Expression x[x.length - 1]: " + x[x.length - 1]);
+
+
+	}
+
+}

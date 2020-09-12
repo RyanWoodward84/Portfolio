@@ -1,0 +1,69 @@
+package question1;
+
+/**
+ *
+ * @author Ryan Woodward
+ * @version 1.0
+ *
+ */
+public class ArrayPatternSearch
+{
+
+	/**
+	 * @param x	-	An array to be searched and modified
+	 * @param sum -	A variable to hold the sum of all the elements of an array
+	 * @param sumStandard -	A variable to hold the sum of all the elements of an array
+	 * @param min - Stores the minimum value of the array
+	 */
+	public static void main(String[] args)
+	{
+		double[] x = {8, 4, 5, 21, 7, 9, 18, 2, 100};
+
+		//Enhanced for loop to compute and print sum of all the elements of x
+		double sum = 0.0;
+		for(double element: x)
+		{
+			sum += element;
+		}
+		System.out.println("Sum of elements of array x: " + sum);
+		System.out.println("Expected : 174.0");
+
+		//Standard for loop to compute and print sum of all elements of array x
+		double sumStandard = 0.0;
+		for(int i = 0; i < x.length; i++)
+		{
+			sumStandard += x[0];
+		}
+		System.out.println("Sum of elements of array x: " + sumStandard);
+		System.out.println("Expected: 174.0");
+
+		//Computing and printing minimum value in array x
+		double min = x[0];
+		for (double element : x)
+		{
+			if (element < min)
+			{
+				min = element;
+			}
+		}
+		System.out.println("Minimum element in array x: " + min);
+		System.out.println("Expected: 2.0");
+
+		//Printing out if an elements of an array are factors of one another
+		for (int i = 0; i < x.length; i++)
+		{
+			System.out.print(x[i] + ": ");
+			for(int j = 0; j < x.length; j++)
+			{
+				if((int) (x[i]) % (int) (x[j]) == 0)
+				{
+					System.out.print(x[j] + " ");
+				}
+
+			}
+			System.out.println();
+		}
+
+	}
+
+}

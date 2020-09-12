@@ -1,0 +1,56 @@
+package question6;
+import java.util.Scanner;
+import java.util.ArrayList;
+
+
+/** Will determine the amount of times each random number has been selected
+ *  when Math.random has been called
+ *
+ * @author Ryan Woodward
+ * @version 1.0
+ *
+ */
+public class FairRandom
+{
+
+	public static void main(String[] args)
+	{
+		Scanner in = new Scanner(System.in);
+
+		//Taking user input for the number of random numbers
+		System.out.print("Enter the number of random numbers to generate: ");
+		int noRandoms = in.nextInt();
+		System.out.println();
+
+		//Taking user input for the number of possible values
+		System.out.print("Enter the number of possible values for each random draw: ");
+		int possibleValues = in.nextInt();
+		System.out.println();
+
+		//Initializing an ArrayList of one element arrays
+		ArrayList<Integer> numbers = new ArrayList<Integer>(noRandoms);
+		for(int i = 0; i < noRandoms; i++)
+		{
+			numbers.add(0);
+		}
+
+		//Calling the random number generator to fill the array list
+		for (int i = 0; i < noRandoms; i++)
+		{
+			int randomNo = (int)(Math.random() * possibleValues);
+			int oldValue = numbers.get(randomNo);
+			System.out.println(oldValue);
+			int newValue = oldValue++;
+			System.out.println(newValue);
+			numbers.set(randomNo, newValue);
+		}
+
+		//Printing
+		for(int i = 0; i < noRandoms; i++)
+		{
+			System.out.println(i + " " + numbers.get(i));
+		}
+
+	}
+
+}

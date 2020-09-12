@@ -1,0 +1,37 @@
+package question4;
+
+import java.util.ArrayList;
+
+/** Will declare an ArrayList of type String and has 5 customers
+ *
+ * @author Ryan Woodward
+ * @version 1.0
+ *
+ */
+public class CustomerLister {
+
+	public static void main(String[] args)
+	{
+		final int CUSTOMERS = 5;
+
+		//4.1 creating an arrayList and initializing it with names
+		ArrayList<String> customerName = new ArrayList<String>(CUSTOMERS);
+		customerName.add("Cathy");
+		customerName.add("Ben");
+		customerName.add("Jorge");
+		customerName.add("Wanda");
+		customerName.add("Freddie");
+
+		for(element : customerName)
+		{
+			System.out.println("Customer: " + element);
+		}
+
+		//
+		double[] customerBalance = new double[CUSTOMERS];
+
+
+
+	}
+
+}
