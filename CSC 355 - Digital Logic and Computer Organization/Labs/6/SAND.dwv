@@ -1,0 +1,22 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+
+entity SAND is 
+
+ port(
+		X	: in	std_logic;
+		Y	: in	std_logic;
+		F	: out	std_logic
+	);
+
+end SAND;
+
+
+architecture arch1 of SAND is
+
+begin
+
+  F <= NOT X AND Y after 1NS;
+
+end arch1;

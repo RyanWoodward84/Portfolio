@@ -1,0 +1,24 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>Unknown</DEVICE>
+ <WORKING_DIR>H:\CSC230\Labs\Lab02</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>H:\CSC230\Labs\Lab02\lab2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>H:\CSC230\Labs\Lab02\lab2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>H:\CSC230\Labs\Lab02\lab2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>H:\CSC230\Labs\Lab02\lab2.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <lp><FILE>H:\CSC230\Labs\Lab02\lab2.asm</FILE><LINE>20</LINE></lp>
+  <done><FILE>H:\CSC230\Labs\Lab02\lab2.asm</FILE><LINE>24</LINE></done>
+ </LABELS>
+</ASSEMBLER_INFO>

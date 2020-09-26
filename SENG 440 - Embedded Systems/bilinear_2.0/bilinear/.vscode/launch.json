@@ -1,0 +1,61 @@
+{
+  "configurations": [
+    {
+      "name": "(gdb) scale",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/scale",
+      "args": ["images/simple/pigs.simple", "images/simple/pigs_20.simple", "2.0"],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+          {
+              "description": "Enable pretty-printing for gdb",
+              "text": "-enable-pretty-printing",
+              "ignoreFailures": true
+          }
+      ]
+    },
+    {
+      "name": "(gdb) simple to bmp",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/simple_to_bmp_convert",
+      "args": ["${workspaceFolder}/images/simple/w3c.simple"],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+          {
+              "description": "Enable pretty-printing for gdb",
+              "text": "-enable-pretty-printing",
+              "ignoreFailures": true
+          }
+      ]
+    },
+  {
+    "name": "(gdb) bmp to simple",
+    "type": "cppdbg",
+    "request": "launch",
+    "program": "${workspaceFolder}/bin/bmp_to_simple_convert",
+    "args": ["${workspaceFolder}/images/w3c.bmp"],
+    "stopAtEntry": false,
+    "cwd": "${workspaceFolder}",
+    "environment": [],
+    "externalConsole": false,
+    "MIMode": "gdb",
+    "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        }
+    ]
+  }
+  ]
+}

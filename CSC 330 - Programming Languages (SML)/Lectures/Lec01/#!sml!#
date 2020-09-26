@@ -1,0 +1,71 @@
+Standard ML of New Jersey v110.84 [built: Tue Sep 04 08:51:30 2018]
+- x;
+stdIn:1.2 Error: unbound variable or constructor: x
+- use "first.sml";
+[opening first.sml]
+val x = 34 : int
+val y = 17 : int
+val z = 70 : int
+val q = 71 : int
+val abs_of_z = 70 : int
+val abs_of_z_simpler = 70 : int
+val it = () : unit
+- x;
+val it = 34 : int
+- val a = "c";
+val a = "c" : string
+- a = #"c";
+stdIn:4.1-4.9 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string
+  operand:         string * char
+  in expression:
+    a = #"c"
+- val a = #"c"
+= ;
+val a = #"c" : char
+- val a = #"cc";
+stdIn:6.9-6.13 Error: character constant not length 1
+- val a = "abc";
+val a = "abc" : string
+- val a = 2.0;
+val a = 2.0 : real
+- val b = a * x;
+stdIn:8.5-8.14 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: real * real
+  operand:         real * int
+  in expression:
+    a * x
+- val b = a * 3;
+stdIn:1.6-5.1 Error: operator and operand do not agree [overload conflict]
+  operator domain: real * real
+  operand:         real * [int ty]
+  in expression:
+    a * 3
+- val b = a * 2.0;
+val b = 4.0 : real
+ -use "first.sml"
+= ;
+[opening first.sml]
+val x = 34 : int
+val y = 17 : int
+val z = 70 : int
+val q = 71 : int
+val abs_of_z = 70 : int
+val abs_of_z_simpler = 70 : int
+val it = () : unit
+- use "first.sml";
+[opening first.sml]
+val x = 34 : int
+val y = 17 : int
+val z = 70 : int
+val q = 71 : int
+val abs_of_z = 70 : int
+val abs_of_z_simpler = 70 : int
+val it = () : unit
+- use "hw1-test.sml";
+[opening hw1-test.sml]
+[use failed: Io: openIn failed on "hw1-test.sml", Win32TextPrimIO:openRd: failed]
+- use "hw1-test.sml";
+[opening hw1-test.sml]
+[use failed: Io: openIn failed on "hw1-test.sml", Win32TextPrimIO:openRd: failed]
+- 

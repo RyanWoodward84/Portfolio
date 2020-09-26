@@ -1,0 +1,8 @@
+
+AVRASM ver. 2.1.42  H:\CSC230\Labs\Lab02\lab2.asm Tue Jan 26 12:19:46 2016
+
+
+DEF  even         r18
+DEF  mask         r17
+CSEG lp           00000006
+CSEG done         00000007

@@ -1,0 +1,15 @@
+
+AVRASM ver. 2.1.42  H:\CSC230\Labs\Lab03\blinkOne.asm Tue Jan 26 13:39:54 2016
+
+
+EQU  PORTB        00000025
+EQU  DDRB         00000024
+EQU  PORTL        0000010b
+EQU  DDRL         0000010a
+CSEG lp           00000005
+CSEG del1         0000000c
+CSEG del2         0000000e
+CSEG del3         00000010
+CSEG del1_2       0000001d
+CSEG del2_2       0000001f
+CSEG del3_2       00000021

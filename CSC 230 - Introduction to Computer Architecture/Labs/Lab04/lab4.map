@@ -1,0 +1,14 @@
+
+AVRASM ver. 2.1.42  H:\CSC230\Labs\Lab04\blink_lab4.asm Tue Feb 02 13:19:24 2016
+
+
+EQU  PORTB        00000025
+EQU  DDRB         00000024
+EQU  PORTL        0000010b
+EQU  DDRL         0000010a
+CSEG lp           00000005
+CSEG delay        00000019
+CSEG done         00000016
+CSEG del1         00000019
+CSEG del2         0000001b
+CSEG del3         0000001d

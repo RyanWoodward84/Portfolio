@@ -1,0 +1,28 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>Unknown</DEVICE>
+ <WORKING_DIR>H:\CSC230\Labs\Lab04</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>H:\CSC230\Labs\Lab04\blink_lab4.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>H:\CSC230\Labs\Lab04\lab4.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>H:\CSC230\Labs\Lab04\lab4.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>H:\CSC230\Labs\Lab04\lab4.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <lp><FILE>H:\CSC230\Labs\Lab04\blink_lab4.asm</FILE><LINE>81</LINE></lp>
+  <delay><FILE>H:\CSC230\Labs\Lab04\blink_lab4.asm</FILE><LINE>104</LINE></delay>
+  <done><FILE>H:\CSC230\Labs\Lab04\blink_lab4.asm</FILE><LINE>100</LINE></done>
+  <del1><FILE>H:\CSC230\Labs\Lab04\blink_lab4.asm</FILE><LINE>105</LINE></del1>
+  <del2><FILE>H:\CSC230\Labs\Lab04\blink_lab4.asm</FILE><LINE>107</LINE></del2>
+  <del3><FILE>H:\CSC230\Labs\Lab04\blink_lab4.asm</FILE><LINE>109</LINE></del3>
+ </LABELS>
+</ASSEMBLER_INFO>

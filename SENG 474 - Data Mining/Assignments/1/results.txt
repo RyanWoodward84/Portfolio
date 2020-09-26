@@ -1,0 +1,7 @@
+Out of a total of 101 test documents 81 were classified correctly
+This gives an accuracy of 0.801980198019802
+
+Files used for training were:
+trainlabels.txt and traindata.txt
+Files used for training were:
+testlabels.txt and testdata.txt

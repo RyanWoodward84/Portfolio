@@ -1,0 +1,11 @@
+For case 1:
+
+If we are looking to throw a subscript range exception we need to look at the insert function and simply go from there.
+
+Same with the find block and index. Simply copy what they have to find and return the block
+
+for case 2 it seems like if the block size is just one then we can just remove the block itself
+
+for case 3 it seems like its several blocks being pointed to by the array in the linked list. In this case we use a loop to shift the elements being pointed to, and then update the block size
+
+Finally we have to update the array size

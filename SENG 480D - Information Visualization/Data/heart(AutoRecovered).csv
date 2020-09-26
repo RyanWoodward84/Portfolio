@@ -1,0 +1,304 @@
+﻿Age,Sex,Chest Pain Type,Resting Blood Pressure,Cholesterol,"Fasting Blood Sugar (>120 = True, <=120 = False)",Resting ECG Results,Maximum Heart Rate Achieved,Exercise Induced Angina,ST depression induced by exercise relative to rest ,the slope of the peak exercise ST segment ,number of major vessels (0-3) colored by flourosopy,Thalassemia,Target
+63,Male,Typical Angina,145,233,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,150,No,2.3,0,0,Fixed Defect,No Disease
+37,Male,Non-Anginal,130,250,FALSE,normal,187,No,3.5,0,0,Normal,No Disease
+41,Female,Atypical Angina,130,204,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,172,No,1.4,2,0,Normal,No Disease
+56,Male,Atypical Angina,120,236,FALSE,normal,178,No,0.8,2,0,Normal,No Disease
+57,Female,Asymptomatic,120,354,FALSE,normal,163,Yes,0.6,2,0,Normal,No Disease
+57,Male,Asymptomatic,140,192,FALSE,normal,148,No,0.4,1,0,Fixed Defect,No Disease
+56,Female,Atypical Angina,140,294,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,153,No,1.3,1,0,Normal,No Disease
+44,Male,Atypical Angina,120,263,FALSE,normal,173,No,0,2,0,Reversable Defect,No Disease
+52,Male,Non-Anginal,172,199,TRUE,normal,162,No,0.5,2,0,Reversable Defect,No Disease
+57,Male,Non-Anginal,150,168,FALSE,normal,174,No,1.6,2,0,Normal,No Disease
+54,Male,Asymptomatic,140,239,FALSE,normal,160,No,1.2,2,0,Normal,No Disease
+48,Female,Non-Anginal,130,275,FALSE,normal,139,No,0.2,2,0,Normal,No Disease
+49,Male,Atypical Angina,130,266,FALSE,normal,171,No,0.6,2,0,Normal,No Disease
+64,Male,Typical Angina,110,211,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,144,Yes,1.8,1,0,Normal,No Disease
+58,Female,Typical Angina,150,283,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,162,No,1,2,0,Normal,No Disease
+50,Female,Non-Anginal,120,219,FALSE,normal,158,No,1.6,1,0,Normal,No Disease
+58,Female,Non-Anginal,120,340,FALSE,normal,172,No,0,2,0,Normal,No Disease
+66,Female,Typical Angina,150,226,FALSE,normal,114,No,2.6,0,0,Normal,No Disease
+43,Male,Asymptomatic,150,247,FALSE,normal,171,No,1.5,2,0,Normal,No Disease
+69,Female,Typical Angina,140,239,FALSE,normal,151,No,1.8,2,2,Normal,No Disease
+59,Male,Asymptomatic,135,234,FALSE,normal,161,No,0.5,1,0,Reversable Defect,No Disease
+44,Male,Non-Anginal,130,233,FALSE,normal,179,Yes,0.4,2,0,Normal,No Disease
+42,Male,Asymptomatic,140,226,FALSE,normal,178,No,0,2,0,Normal,No Disease
+61,Male,Non-Anginal,150,243,TRUE,normal,137,Yes,1,1,0,Normal,No Disease
+40,Male,Typical Angina,140,199,FALSE,normal,178,Yes,1.4,2,0,Reversable Defect,No Disease
+71,Female,Atypical Angina,160,302,FALSE,normal,162,No,0.4,2,2,Normal,No Disease
+59,Male,Non-Anginal,150,212,TRUE,normal,157,No,1.6,2,0,Normal,No Disease
+51,Male,Non-Anginal,110,175,FALSE,normal,123,No,0.6,2,0,Normal,No Disease
+65,Female,Non-Anginal,140,417,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,157,No,0.8,2,1,Normal,No Disease
+53,Male,Non-Anginal,130,197,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,152,No,1.2,0,0,Normal,No Disease
+41,Female,Atypical Angina,105,198,FALSE,normal,168,No,0,2,1,Normal,No Disease
+65,Male,Asymptomatic,120,177,FALSE,normal,140,No,0.4,2,0,Reversable Defect,No Disease
+44,Male,Atypical Angina,130,219,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,188,No,0,2,0,Normal,No Disease
+54,Male,Non-Anginal,125,273,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,152,No,0.5,0,1,Normal,No Disease
+51,Male,Typical Angina,125,213,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,125,Yes,1.4,2,1,Normal,No Disease
+46,Female,Non-Anginal,142,177,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,160,Yes,1.4,0,0,Normal,No Disease
+54,Female,Non-Anginal,135,304,TRUE,normal,170,No,0,2,0,Normal,No Disease
+54,Male,Non-Anginal,150,232,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,165,No,1.6,2,0,Reversable Defect,No Disease
+65,Female,Non-Anginal,155,269,FALSE,normal,148,No,0.8,2,0,Normal,No Disease
+65,Female,Non-Anginal,160,360,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,151,No,0.8,2,0,Normal,No Disease
+51,Female,Non-Anginal,140,308,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,142,No,1.5,2,1,Normal,No Disease
+48,Male,Atypical Angina,130,245,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,180,No,0.2,1,0,Normal,No Disease
+45,Male,Asymptomatic,104,208,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,148,Yes,3,1,0,Normal,No Disease
+53,Female,Asymptomatic,130,264,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,143,No,0.4,1,0,Normal,No Disease
+39,Male,Non-Anginal,140,321,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,182,No,0,2,0,Normal,No Disease
+52,Male,Atypical Angina,120,325,FALSE,normal,172,No,0.2,2,0,Normal,No Disease
+44,Male,Non-Anginal,140,235,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,180,No,0,2,0,Normal,No Disease
+47,Male,Non-Anginal,138,257,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,156,No,0,2,0,Normal,No Disease
+53,Female,Non-Anginal,128,216,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,115,No,0,2,0,Unknown,No Disease
+53,Female,Asymptomatic,138,234,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,160,No,0,2,0,Normal,No Disease
+51,Female,Non-Anginal,130,256,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,149,No,0.5,2,0,Normal,No Disease
+66,Male,Asymptomatic,120,302,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,151,No,0.4,1,0,Normal,No Disease
+62,Male,Non-Anginal,130,231,FALSE,normal,146,No,1.8,1,3,Reversable Defect,No Disease
+44,Female,Non-Anginal,108,141,FALSE,normal,175,No,0.6,1,0,Normal,No Disease
+63,Female,Non-Anginal,135,252,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,172,No,0,2,0,Normal,No Disease
+52,Male,Atypical Angina,134,201,FALSE,normal,158,No,0.8,2,1,Normal,No Disease
+48,Male,Asymptomatic,122,222,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,186,No,0,2,0,Normal,No Disease
+45,Male,Asymptomatic,115,260,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,185,No,0,2,0,Normal,No Disease
+34,Male,Typical Angina,118,182,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,174,No,0,2,0,Normal,No Disease
+57,Female,Asymptomatic,128,303,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,159,No,0,2,1,Normal,No Disease
+71,Female,Non-Anginal,110,265,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,130,No,0,2,1,Normal,No Disease
+54,Male,Atypical Angina,108,309,FALSE,normal,156,No,0,2,0,Reversable Defect,No Disease
+52,Male,Typical Angina,118,186,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,190,No,0,1,0,Fixed Defect,No Disease
+41,Male,Atypical Angina,135,203,FALSE,normal,132,No,0,1,0,Fixed Defect,No Disease
+58,Male,Non-Anginal,140,211,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,165,No,0,2,0,Normal,No Disease
+35,Female,Asymptomatic,138,183,FALSE,normal,182,No,1.4,2,0,Normal,No Disease
+51,Male,Non-Anginal,100,222,FALSE,normal,143,Yes,1.2,1,0,Normal,No Disease
+45,Female,Atypical Angina,130,234,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,175,No,0.6,1,0,Normal,No Disease
+44,Male,Atypical Angina,120,220,FALSE,normal,170,No,0,2,0,Normal,No Disease
+62,Female,Asymptomatic,124,209,FALSE,normal,163,No,0,2,0,Normal,No Disease
+54,Male,Non-Anginal,120,258,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,147,No,0.4,1,0,Reversable Defect,No Disease
+51,Male,Non-Anginal,94,227,FALSE,normal,154,Yes,0,2,1,Reversable Defect,No Disease
+29,Male,Atypical Angina,130,204,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,202,No,0,2,0,Normal,No Disease
+51,Male,Asymptomatic,140,261,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,186,Yes,0,2,0,Normal,No Disease
+43,Female,Non-Anginal,122,213,FALSE,normal,165,No,0.2,1,0,Normal,No Disease
+55,Female,Atypical Angina,135,250,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,161,No,1.4,1,0,Normal,No Disease
+51,Male,Non-Anginal,125,245,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,166,No,2.4,1,0,Normal,No Disease
+59,Male,Atypical Angina,140,221,FALSE,normal,164,Yes,0,2,0,Normal,No Disease
+52,Male,Atypical Angina,128,205,TRUE,normal,184,No,0,2,0,Normal,No Disease
+58,Male,Non-Anginal,105,240,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,154,Yes,0.6,1,0,Reversable Defect,No Disease
+41,Male,Non-Anginal,112,250,FALSE,normal,179,No,0,2,0,Normal,No Disease
+45,Male,Atypical Angina,128,308,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,170,No,0,2,0,Normal,No Disease
+60,Female,Non-Anginal,102,318,FALSE,normal,160,No,0,2,1,Normal,No Disease
+52,Male,Typical Angina,152,298,TRUE,normal,178,No,1.2,1,0,Reversable Defect,No Disease
+42,Female,Asymptomatic,102,265,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,122,No,0.6,1,0,Normal,No Disease
+67,Female,Non-Anginal,115,564,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,160,No,1.6,1,0,Reversable Defect,No Disease
+68,Male,Non-Anginal,118,277,FALSE,normal,151,No,1,2,1,Reversable Defect,No Disease
+46,Male,Atypical Angina,101,197,TRUE,normal,156,No,0,2,0,Reversable Defect,No Disease
+54,Female,Non-Anginal,110,214,FALSE,normal,158,No,1.6,1,0,Normal,No Disease
+58,Female,Asymptomatic,100,248,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,122,No,1,1,0,Normal,No Disease
+48,Male,Non-Anginal,124,255,TRUE,normal,175,No,0,2,2,Normal,No Disease
+57,Male,Asymptomatic,132,207,FALSE,normal,168,Yes,0,2,0,Reversable Defect,No Disease
+52,Male,Non-Anginal,138,223,FALSE,normal,169,No,0,2,4,Normal,No Disease
+54,Female,Atypical Angina,132,288,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,159,Yes,0,2,1,Normal,No Disease
+45,Female,Atypical Angina,112,160,FALSE,normal,138,No,0,1,0,Normal,No Disease
+53,Male,Asymptomatic,142,226,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,111,Yes,0,2,0,Reversable Defect,No Disease
+62,Female,Asymptomatic,140,394,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,157,No,1.2,1,0,Normal,No Disease
+52,Male,Asymptomatic,108,233,TRUE,normal,147,No,0.1,2,3,Reversable Defect,No Disease
+43,Male,Non-Anginal,130,315,FALSE,normal,162,No,1.9,2,1,Normal,No Disease
+53,Male,Non-Anginal,130,246,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,173,No,0,2,3,Normal,No Disease
+42,Male,Typical Angina,148,244,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,178,No,0.8,2,2,Normal,No Disease
+59,Male,Typical Angina,178,270,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,145,No,4.2,0,0,Reversable Defect,No Disease
+63,Female,Atypical Angina,140,195,FALSE,normal,179,No,0,2,2,Normal,No Disease
+42,Male,Non-Anginal,120,240,TRUE,normal,194,No,0.8,0,0,Reversable Defect,No Disease
+50,Male,Non-Anginal,129,196,FALSE,normal,163,No,0,2,0,Normal,No Disease
+68,Female,Non-Anginal,120,211,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,115,No,1.5,1,0,Normal,No Disease
+69,Male,Typical Angina,160,234,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,131,No,0.1,1,1,Normal,No Disease
+45,Female,Asymptomatic,138,236,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,152,Yes,0.2,1,0,Normal,No Disease
+50,Female,Atypical Angina,120,244,FALSE,normal,162,No,1.1,2,0,Normal,No Disease
+50,Female,Asymptomatic,110,254,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,159,No,0,2,0,Normal,No Disease
+64,Female,Asymptomatic,180,325,FALSE,normal,154,Yes,0,2,0,Normal,No Disease
+57,Male,Non-Anginal,150,126,TRUE,normal,173,No,0.2,2,1,Reversable Defect,No Disease
+64,Female,Non-Anginal,140,313,FALSE,normal,133,No,0.2,2,0,Reversable Defect,No Disease
+43,Male,Asymptomatic,110,211,FALSE,normal,161,No,0,2,0,Reversable Defect,No Disease
+55,Male,Atypical Angina,130,262,FALSE,normal,155,No,0,2,0,Normal,No Disease
+37,Female,Non-Anginal,120,215,FALSE,normal,170,No,0,2,0,Normal,No Disease
+41,Male,Non-Anginal,130,214,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,168,No,2,1,0,Normal,No Disease
+56,Male,Typical Angina,120,193,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,162,No,1.9,1,0,Reversable Defect,No Disease
+46,Female,Atypical Angina,105,204,FALSE,normal,172,No,0,2,0,Normal,No Disease
+46,Female,Asymptomatic,138,243,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,152,Yes,0,1,0,Normal,No Disease
+64,Female,Asymptomatic,130,303,FALSE,normal,122,No,2,1,2,Normal,No Disease
+59,Male,Asymptomatic,138,271,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,182,No,0,2,0,Normal,No Disease
+41,Female,Non-Anginal,112,268,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,172,Yes,0,2,0,Normal,No Disease
+54,Female,Non-Anginal,108,267,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,167,No,0,2,0,Normal,No Disease
+39,Female,Non-Anginal,94,199,FALSE,normal,179,No,0,2,0,Normal,No Disease
+34,Female,Atypical Angina,118,210,FALSE,normal,192,No,0.7,2,0,Normal,No Disease
+47,Male,Asymptomatic,112,204,FALSE,normal,143,No,0.1,2,0,Normal,No Disease
+67,Female,Non-Anginal,152,277,FALSE,normal,172,No,0,2,1,Normal,No Disease
+52,Female,Non-Anginal,136,196,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,169,No,0.1,1,0,Normal,No Disease
+74,Female,Atypical Angina,120,269,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,121,Yes,0.2,2,1,Normal,No Disease
+54,Female,Non-Anginal,160,201,FALSE,normal,163,No,0,2,1,Normal,No Disease
+49,Female,Atypical Angina,134,271,FALSE,normal,162,No,0,1,0,Normal,No Disease
+42,Male,Atypical Angina,120,295,FALSE,normal,162,No,0,2,0,Normal,No Disease
+41,Male,Atypical Angina,110,235,FALSE,normal,153,No,0,2,0,Normal,No Disease
+41,Female,Atypical Angina,126,306,FALSE,normal,163,No,0,2,0,Normal,No Disease
+49,Female,Asymptomatic,130,269,FALSE,normal,163,No,0,2,0,Normal,No Disease
+60,Female,Non-Anginal,120,178,TRUE,normal,96,No,0,2,0,Normal,No Disease
+62,Male,Atypical Angina,128,208,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,140,No,0,2,0,Normal,No Disease
+57,Male,Asymptomatic,110,201,FALSE,normal,126,Yes,1.5,1,0,Fixed Defect,No Disease
+64,Male,Asymptomatic,128,263,FALSE,normal,105,Yes,0.2,1,1,Reversable Defect,No Disease
+51,Female,Non-Anginal,120,295,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,157,No,0.6,2,0,Normal,No Disease
+43,Male,Asymptomatic,115,303,FALSE,normal,181,No,1.2,1,0,Normal,No Disease
+42,Female,Non-Anginal,120,209,FALSE,normal,173,No,0,1,0,Normal,No Disease
+67,Female,Asymptomatic,106,223,FALSE,normal,142,No,0.3,2,2,Normal,No Disease
+76,Female,Non-Anginal,140,197,FALSE,having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV),116,No,1.1,1,0,Normal,No Disease
+70,Male,Atypical Angina,156,245,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,143,No,0,2,0,Normal,No Disease
+44,Female,Non-Anginal,118,242,FALSE,normal,149,No,0.3,1,1,Normal,No Disease
+60,Female,Typical Angina,150,240,FALSE,normal,171,No,0.9,2,0,Normal,No Disease
+44,Male,Non-Anginal,120,226,FALSE,normal,169,No,0,2,0,Normal,No Disease
+42,Male,Non-Anginal,130,180,FALSE,normal,150,No,0,2,0,Normal,No Disease
+66,Male,Asymptomatic,160,228,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,138,No,2.3,2,0,Fixed Defect,No Disease
+71,Female,Asymptomatic,112,149,FALSE,normal,125,No,1.6,1,0,Normal,No Disease
+64,Male,Typical Angina,170,227,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,155,No,0.6,1,0,Reversable Defect,No Disease
+66,Female,Non-Anginal,146,278,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,152,No,0,1,1,Normal,No Disease
+39,Female,Non-Anginal,138,220,FALSE,normal,152,No,0,1,0,Normal,No Disease
+58,Female,Asymptomatic,130,197,FALSE,normal,131,No,0.6,1,0,Normal,No Disease
+47,Male,Non-Anginal,130,253,FALSE,normal,179,No,0,2,0,Normal,No Disease
+35,Male,Atypical Angina,122,192,FALSE,normal,174,No,0,2,0,Normal,No Disease
+58,Male,Atypical Angina,125,220,FALSE,normal,144,No,0.4,1,4,Reversable Defect,No Disease
+56,Male,Atypical Angina,130,221,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,163,No,0,2,0,Reversable Defect,No Disease
+56,Male,Atypical Angina,120,240,FALSE,normal,169,No,0,0,0,Normal,No Disease
+55,Female,Atypical Angina,132,342,FALSE,normal,166,No,1.2,2,0,Normal,No Disease
+41,Male,Atypical Angina,120,157,FALSE,normal,182,No,0,2,0,Normal,No Disease
+38,Male,Non-Anginal,138,175,FALSE,normal,173,No,0,2,4,Normal,No Disease
+38,Male,Non-Anginal,138,175,FALSE,normal,173,No,0,2,4,Normal,No Disease
+67,Male,Asymptomatic,160,286,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,108,Yes,1.5,1,3,Normal,Disease
+67,Male,Asymptomatic,120,229,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,129,Yes,2.6,1,2,Reversable Defect,Disease
+62,Female,Asymptomatic,140,268,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,160,No,3.6,0,2,Normal,Disease
+63,Male,Asymptomatic,130,254,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,147,No,1.4,1,1,Reversable Defect,Disease
+53,Male,Asymptomatic,140,203,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,155,Yes,3.1,0,0,Reversable Defect,Disease
+56,Male,Non-Anginal,130,256,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,142,Yes,0.6,1,1,Fixed Defect,Disease
+48,Male,Atypical Angina,110,229,FALSE,normal,168,No,1,0,0,Reversable Defect,Disease
+58,Male,Atypical Angina,120,284,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,160,No,1.8,1,0,Normal,Disease
+58,Male,Non-Anginal,132,224,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,173,No,3.2,2,2,Reversable Defect,Disease
+60,Male,Asymptomatic,130,206,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,132,Yes,2.4,1,2,Reversable Defect,Disease
+40,Male,Asymptomatic,110,167,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,114,Yes,2,1,0,Reversable Defect,Disease
+60,Male,Asymptomatic,117,230,TRUE,normal,160,Yes,1.4,2,2,Reversable Defect,Disease
+64,Male,Non-Anginal,140,335,FALSE,normal,158,No,0,2,0,Normal,Disease
+43,Male,Asymptomatic,120,177,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,120,Yes,2.5,1,0,Reversable Defect,Disease
+57,Male,Asymptomatic,150,276,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,112,Yes,0.6,1,1,Fixed Defect,Disease
+55,Male,Asymptomatic,132,353,FALSE,normal,132,Yes,1.2,1,1,Reversable Defect,Disease
+65,Female,Asymptomatic,150,225,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,114,No,1,1,3,Reversable Defect,Disease
+61,Female,Asymptomatic,130,330,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,169,No,0,2,0,Normal,Disease
+58,Male,Non-Anginal,112,230,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,165,No,2.5,1,1,Reversable Defect,Disease
+50,Male,Asymptomatic,150,243,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,128,No,2.6,1,0,Reversable Defect,Disease
+44,Male,Asymptomatic,112,290,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,153,No,0,2,1,Normal,Disease
+60,Male,Asymptomatic,130,253,FALSE,normal,144,Yes,1.4,2,1,Reversable Defect,Disease
+54,Male,Asymptomatic,124,266,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,109,Yes,2.2,1,1,Reversable Defect,Disease
+50,Male,Non-Anginal,140,233,FALSE,normal,163,No,0.6,1,1,Reversable Defect,Disease
+41,Male,Asymptomatic,110,172,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,158,No,0,2,0,Reversable Defect,Disease
+51,Female,Asymptomatic,130,305,FALSE,normal,142,Yes,1.2,1,0,Reversable Defect,Disease
+58,Male,Asymptomatic,128,216,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,131,Yes,2.2,1,3,Reversable Defect,Disease
+54,Male,Asymptomatic,120,188,FALSE,normal,113,No,1.4,1,1,Reversable Defect,Disease
+60,Male,Asymptomatic,145,282,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,142,Yes,2.8,1,2,Reversable Defect,Disease
+60,Male,Non-Anginal,140,185,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,155,No,3,1,0,Normal,Disease
+59,Male,Asymptomatic,170,326,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,140,Yes,3.4,0,0,Reversable Defect,Disease
+46,Male,Non-Anginal,150,231,FALSE,normal,147,No,3.6,1,0,Normal,Disease
+67,Male,Asymptomatic,125,254,TRUE,normal,163,No,0.2,1,2,Reversable Defect,Disease
+62,Male,Asymptomatic,120,267,FALSE,normal,99,Yes,1.8,1,2,Reversable Defect,Disease
+65,Male,Asymptomatic,110,248,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,158,No,0.6,2,2,Fixed Defect,Disease
+44,Male,Asymptomatic,110,197,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,177,No,0,2,1,Normal,Disease
+60,Male,Asymptomatic,125,258,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,141,Yes,2.8,1,1,Reversable Defect,Disease
+58,Male,Asymptomatic,150,270,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,111,Yes,0.8,2,0,Reversable Defect,Disease
+68,Male,Non-Anginal,180,274,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,150,Yes,1.6,1,0,Reversable Defect,Disease
+62,Female,Asymptomatic,160,164,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,145,No,6.2,0,3,Reversable Defect,Disease
+52,Male,Asymptomatic,128,255,FALSE,normal,161,Yes,0,2,1,Reversable Defect,Disease
+59,Male,Asymptomatic,110,239,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,142,Yes,1.2,1,1,Reversable Defect,Disease
+60,Female,Asymptomatic,150,258,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,157,No,2.6,1,2,Reversable Defect,Disease
+49,Male,Non-Anginal,120,188,FALSE,normal,139,No,2,1,3,Reversable Defect,Disease
+59,Male,Asymptomatic,140,177,FALSE,normal,162,Yes,0,2,1,Reversable Defect,Disease
+57,Male,Non-Anginal,128,229,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,150,No,0.4,1,1,Reversable Defect,Disease
+61,Male,Asymptomatic,120,260,FALSE,normal,140,Yes,3.6,1,1,Reversable Defect,Disease
+39,Male,Asymptomatic,118,219,FALSE,normal,140,No,1.2,1,0,Reversable Defect,Disease
+61,Female,Asymptomatic,145,307,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,146,Yes,1,1,0,Reversable Defect,Disease
+56,Male,Asymptomatic,125,249,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,144,Yes,1.2,1,1,Normal,Disease
+43,Female,Asymptomatic,132,341,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,136,Yes,3,1,0,Reversable Defect,Disease
+62,Female,Non-Anginal,130,263,FALSE,normal,97,No,1.2,1,1,Reversable Defect,Disease
+63,Male,Asymptomatic,130,330,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,132,Yes,1.8,2,3,Reversable Defect,Disease
+65,Male,Asymptomatic,135,254,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,127,No,2.8,1,1,Reversable Defect,Disease
+48,Male,Asymptomatic,130,256,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,150,Yes,0,2,2,Reversable Defect,Disease
+63,Female,Asymptomatic,150,407,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,154,No,4,1,3,Reversable Defect,Disease
+55,Male,Asymptomatic,140,217,FALSE,normal,111,Yes,5.6,0,0,Reversable Defect,Disease
+65,Male,Typical Angina,138,282,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,174,No,1.4,1,1,Normal,Disease
+56,Female,Asymptomatic,200,288,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,133,Yes,4,0,2,Reversable Defect,Disease
+54,Male,Asymptomatic,110,239,FALSE,normal,126,Yes,2.8,1,1,Reversable Defect,Disease
+70,Male,Asymptomatic,145,174,FALSE,normal,125,Yes,2.6,0,0,Reversable Defect,Disease
+62,Male,Atypical Angina,120,281,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,103,No,1.4,1,1,Reversable Defect,Disease
+35,Male,Asymptomatic,120,198,FALSE,normal,130,Yes,1.6,1,0,Reversable Defect,Disease
+59,Male,Typical Angina,170,288,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,159,No,0.2,1,0,Reversable Defect,Disease
+64,Male,Non-Anginal,125,309,FALSE,normal,131,Yes,1.8,1,0,Reversable Defect,Disease
+47,Male,Non-Anginal,108,243,FALSE,normal,152,No,0,2,0,Normal,Disease
+57,Male,Asymptomatic,165,289,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,124,No,1,1,3,Reversable Defect,Disease
+55,Male,Asymptomatic,160,289,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,145,Yes,0.8,1,1,Reversable Defect,Disease
+64,Male,Asymptomatic,120,246,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,96,Yes,2.2,0,1,Normal,Disease
+70,Male,Asymptomatic,130,322,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,109,No,2.4,1,3,Normal,Disease
+51,Male,Asymptomatic,140,299,FALSE,normal,173,Yes,1.6,2,0,Reversable Defect,Disease
+58,Male,Asymptomatic,125,300,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,171,No,0,2,2,Reversable Defect,Disease
+60,Male,Asymptomatic,140,293,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,170,No,1.2,1,2,Reversable Defect,Disease
+77,Male,Asymptomatic,125,304,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,162,Yes,0,2,3,Normal,Disease
+35,Male,Asymptomatic,126,282,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,156,Yes,0,2,0,Reversable Defect,Disease
+70,Male,Non-Anginal,160,269,FALSE,normal,112,Yes,2.9,1,1,Reversable Defect,Disease
+59,Female,Asymptomatic,174,249,FALSE,normal,143,Yes,0,1,0,Normal,Disease
+64,Male,Asymptomatic,145,212,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,132,No,2,1,2,Fixed Defect,Disease
+57,Male,Asymptomatic,152,274,FALSE,normal,88,Yes,1.2,1,1,Reversable Defect,Disease
+56,Male,Asymptomatic,132,184,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,105,Yes,2.1,1,1,Fixed Defect,Disease
+48,Male,Asymptomatic,124,274,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,166,No,0.5,1,0,Reversable Defect,Disease
+56,Female,Asymptomatic,134,409,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,150,Yes,1.9,1,2,Reversable Defect,Disease
+66,Male,Atypical Angina,160,246,FALSE,normal,120,Yes,0,1,3,Fixed Defect,Disease
+54,Male,Atypical Angina,192,283,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,195,No,0,2,1,Reversable Defect,Disease
+69,Male,Non-Anginal,140,254,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,146,No,2,1,3,Reversable Defect,Disease
+51,Male,Asymptomatic,140,298,FALSE,normal,122,Yes,4.2,1,3,Reversable Defect,Disease
+43,Male,Asymptomatic,132,247,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,143,Yes,0.1,1,4,Reversable Defect,Disease
+62,Female,Asymptomatic,138,294,TRUE,normal,106,No,1.9,1,3,Normal,Disease
+67,Male,Asymptomatic,100,299,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,125,Yes,0.9,1,2,Normal,Disease
+59,Male,Typical Angina,160,273,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,125,No,0,2,0,Normal,Disease
+45,Male,Asymptomatic,142,309,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,147,Yes,0,1,3,Reversable Defect,Disease
+58,Male,Asymptomatic,128,259,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,130,Yes,3,1,2,Reversable Defect,Disease
+50,Male,Asymptomatic,144,200,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,126,Yes,0.9,1,0,Reversable Defect,Disease
+62,Female,Asymptomatic,150,244,FALSE,normal,154,Yes,1.4,1,0,Normal,Disease
+38,Male,Typical Angina,120,231,FALSE,normal,182,Yes,3.8,1,0,Reversable Defect,Disease
+66,Female,Asymptomatic,178,228,TRUE,normal,165,Yes,1,1,2,Reversable Defect,Disease
+52,Male,Asymptomatic,112,230,FALSE,normal,160,No,0,2,1,Normal,Disease
+53,Male,Asymptomatic,123,282,FALSE,normal,95,Yes,2,1,2,Reversable Defect,Disease
+63,Female,Asymptomatic,108,269,FALSE,normal,169,Yes,1.8,1,2,Normal,Disease
+54,Male,Asymptomatic,110,206,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,108,Yes,0,1,1,Normal,Disease
+66,Male,Asymptomatic,112,212,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,132,Yes,0.1,2,1,Normal,Disease
+55,Female,Asymptomatic,180,327,FALSE,having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV),117,Yes,3.4,1,0,Normal,Disease
+49,Male,Non-Anginal,118,149,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,126,No,0.8,2,3,Normal,Disease
+54,Male,Asymptomatic,122,286,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,116,Yes,3.2,1,2,Normal,Disease
+56,Male,Asymptomatic,130,283,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,103,Yes,1.6,0,0,Reversable Defect,Disease
+46,Male,Asymptomatic,120,249,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,144,No,0.8,2,0,Reversable Defect,Disease
+61,Male,Typical Angina,134,234,FALSE,normal,145,No,2.6,1,2,Normal,Disease
+67,Male,Asymptomatic,120,237,FALSE,normal,71,No,1,1,0,Normal,Disease
+58,Male,Asymptomatic,100,234,FALSE,normal,156,No,0.1,2,1,Reversable Defect,Disease
+47,Male,Asymptomatic,110,275,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,118,Yes,1,1,1,Normal,Disease
+52,Male,Asymptomatic,125,212,FALSE,normal,168,No,1,2,2,Reversable Defect,Disease
+58,Male,Asymptomatic,146,218,FALSE,normal,105,No,2,1,1,Reversable Defect,Disease
+57,Male,Atypical Angina,124,261,FALSE,normal,141,No,0.3,2,0,Reversable Defect,Disease
+58,Female,Atypical Angina,136,319,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,152,No,0,2,2,Normal,Disease
+61,Male,Asymptomatic,138,166,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,125,Yes,3.6,1,1,Normal,Disease
+42,Male,Asymptomatic,136,315,FALSE,normal,125,Yes,1.8,1,0,Fixed Defect,Disease
+52,Male,Asymptomatic,128,204,TRUE,normal,156,Yes,1,1,0,Unknown,Disease
+59,Male,Non-Anginal,126,218,TRUE,normal,134,No,2.2,1,1,Fixed Defect,Disease
+40,Male,Asymptomatic,152,223,FALSE,normal,181,No,0,2,0,Reversable Defect,Disease
+61,Male,Asymptomatic,140,207,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,138,Yes,1.9,2,1,Reversable Defect,Disease
+46,Male,Asymptomatic,140,311,FALSE,normal,120,Yes,1.8,1,2,Reversable Defect,Disease
+59,Male,Typical Angina,134,204,FALSE,normal,162,No,0.8,2,2,Normal,Disease
+57,Male,Atypical Angina,154,232,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,164,No,0,2,1,Normal,Disease
+57,Male,Asymptomatic,110,335,FALSE,normal,143,Yes,3,1,1,Reversable Defect,Disease
+55,Female,Asymptomatic,128,205,FALSE,having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV),130,Yes,2,1,1,Reversable Defect,Disease
+61,Male,Asymptomatic,148,203,FALSE,normal,161,No,0,2,1,Reversable Defect,Disease
+58,Male,Asymptomatic,114,318,FALSE,having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV),140,No,4.4,0,3,Fixed Defect,Disease
+58,Female,Asymptomatic,170,225,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,146,Yes,2.8,1,2,Fixed Defect,Disease
+67,Male,Non-Anginal,152,212,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,150,No,0.8,1,0,Reversable Defect,Disease
+44,Male,Asymptomatic,120,169,FALSE,normal,144,Yes,2.8,0,0,Fixed Defect,Disease
+63,Male,Asymptomatic,140,187,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,144,Yes,4,2,2,Reversable Defect,Disease
+63,Female,Asymptomatic,124,197,FALSE,normal,136,Yes,0,1,0,Normal,Disease
+59,Male,Asymptomatic,164,176,TRUE,showing probable or definite left ventricular hypertrophy by Estes' criteria,90,No,1,1,2,Fixed Defect,Disease
+57,Female,Asymptomatic,140,241,FALSE,normal,123,Yes,0.2,1,0,Reversable Defect,Disease
+45,Male,Typical Angina,110,264,FALSE,normal,132,No,1.2,1,0,Reversable Defect,Disease
+68,Male,Asymptomatic,144,193,TRUE,normal,141,No,3.4,1,2,Reversable Defect,Disease
+57,Male,Asymptomatic,130,131,FALSE,normal,115,Yes,1.2,1,1,Reversable Defect,Disease
+57,Female,Atypical Angina,130,236,FALSE,showing probable or definite left ventricular hypertrophy by Estes' criteria,174,No,0,1,1,Normal,Disease

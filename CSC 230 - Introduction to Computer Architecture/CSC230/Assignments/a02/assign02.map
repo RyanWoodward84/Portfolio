@@ -1,0 +1,39 @@
+
+AVRASM ver. 2.1.42  H:\CSC230\Assignments\a02\a2q4.asm Sat Feb 13 14:38:12 2016
+
+
+EQU  DDRB         00000024
+EQU  PORTB        00000025
+EQU  DDRL         0000010a
+EQU  PORTL        0000010b
+EQU  ADCSRA       0000007a
+EQU  ADMUX        0000007c
+EQU  ADCL         00000078
+EQU  ADCH         00000079
+DEF  shiftCount   r19
+DEF  revCount     r18
+CSEG display      00000062
+CSEG lp           0000000f
+CSEG check_button 0000001e
+CSEG delay        00000056
+CSEG wait         00000023
+CSEG rightUpDown  00000036
+CSEG downLeft     00000042
+CSEG leftSelect   00000048
+CSEG selectNone   00000051
+CSEG rightSet     0000003c
+CSEG upSet        0000003f
+CSEG downSet      00000045
+CSEG leftSet      0000004b
+CSEG selectSet    0000004e
+CSEG del1         00000056
+CSEG del2         00000058
+CSEG del3         0000005a
+CSEG loopL        00000065
+CSEG bitSetL      00000071
+CSEG shiftNotEqualL 0000006b
+CSEG portRight    00000078
+CSEG loopB        0000007d
+CSEG bitSetB      00000087
+CSEG shiftNotEqualB 00000083
+CSEG finalSet     0000008e

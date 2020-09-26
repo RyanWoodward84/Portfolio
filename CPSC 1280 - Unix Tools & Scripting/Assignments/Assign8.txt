@@ -1,0 +1,132 @@
+﻿Ch 8 : Exercises 8, 10, 11, 14, 15 ,17
+
+8.
+
+i)
+
+In order to change your prompt to look like this
+
+[jupiter-henry ~/project8] (user – henry, machine name-jupiter, current directory – project8]
+
+you would use the following command
+
+PS1='[`hostname`-`whoami` $PWD]'
+
+
+ii)
+
+In order to revert back to your original prompt you could simply close the current shell and open a new one, therefore the default environment setting would be loaded when the shell starts up. Otherwise you could use the command
+
+PS1='$ '
+
+which was the default value of the shell in the first place before you logged out.
+
+10.
+
+Significance of bash commands
+
+i) !50
+
+This will execute event 50, which would be the 50th previous command
+Korn equivalent: r 50
+
+ii) !-2:p
+
+This will print the command prior to the previous one , without executing the command
+Korn equivalent: There is no korn equivalent to this command 
+
+iii) !!
+
+This will repeat the previous command
+Korn equivalent: r
+
+iv) ^doc^bak
+
+This will repeat the previous command after substituting bak for doc
+Korn equivalent: r doc=bak
+
+11.
+
+Condensing sequencees
+
+i) cp *.c c_progs ; cd c_progs
+
+cp *.c c_progs; cd $_
+
+ii) cmp foo foo.bak ; cmp foo foo.doc
+
+This sequence is unable to be condensed. The last argument passed to the first command is foo.bak, therefore if we substitute $_ we will we substituting foo.bak instead of foo in the second command. A way around this would be to rearrange the original command.
+
+Cmp foo.bak foo ; cmp $_ foo.doc
+
+iii) ls pricelist.html ; cp pricelist.html pricelist.html.bak
+
+ls pricelist.html ; cp $_ $_.bak
+
+14.
+
+Significance of these commands
+
+i) cd ~henry
+
+This command will attempt to change into a directory named ~henry
+
+ii) cd ~/henry
+
+This command will attempt to change into the directory henry, which is a subdirectory under home
+
+iii) cd ~-
+
+This command will change you to the previous directory that you were in, regardless of whether that directory is up or down in the directory tree
+
+iv) cd -
+
+This command will change you into the previous directory you were in, and print the absolute path of that directory
+
+15.
+
+Shells use a profile as well as an rc file to distinguish between startup shells and subshells. The profile file is used for the startup shell, whereas the rc file is used for the all of the sub shells
+
+
+
+17.
+
+If your .profile contains a statement like PATH=$PATH:$HOME/bin and you make repeated changes to the file, how should you activate the changes
+
+You would use the export command in this case to change this into an environment variable. That way the changes will be activated the next versions of the shell
+
+export PATH=$PATH:$HOME/bin
+
+Chapter 9 Exercises: 1, 3, 4, 9
+
+1.
+
+Two lists foo1, foo2 contain names of users. In order to create a third list foo3 of users that exist in foo2 but not in foo1 you would use the command
+
+Comm -13 foo1 foo2 > foo3
+
+This command sequence would not work if the lines in each file were not sorted. Each line is compared, so if the lists are not sorted then there is a possibility that each line could be different.
+
+3.
+
+How do you select from a file i) lines 5-10, ii) second to last line
+
+i) In order to select lines 5-10 from a file you would use the command
+
+tail +4 file | head -n 6
+
+ii) In order to select the second to last line from a file you would use the command
+
+tail +1 file | head – n 1
+
+4.
+
+How will you use pr, sort, and cut to read a file backwards
+
+You can first use the command sort -r to sort a file in reverse order, pipe that reversed file to cut, where you can cut out only the sorted fields that you wish to display, then pipe that result to pr which can display the sorted results with suitable formats on the screen.
+
+9.
+
+How do you save the last 2 digits of the year from the date output in a variable?
+
+variable=`date | cut -d” “ -f6 | sed 's/^..//'`

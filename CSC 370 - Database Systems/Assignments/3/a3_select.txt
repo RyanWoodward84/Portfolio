@@ -1,0 +1,50 @@
+/*
+	Name: Brendan Ciccone
+	Id: V00871008
+	CSC 370 - Assignment 3
+	desc: This is a misscelaneous file that lists the contenents of every table in the database
+*/
+
+\echo ___________________________________ Select Start ___________________________________
+\echo 
+\echo 'Users' ___________________________________
+\echo 
+SELECT * FROM Users;
+\echo 'Students' ___________________________________
+\echo 
+SELECT * FROM Students;
+\echo 'Teachers' ___________________________________
+\echo 
+SELECT * FROM Teachers;
+\echo 'Languages' ___________________________________
+\echo 
+SELECT * FROM Languages;
+\echo 'LanguageOfUser' ___________________________________
+\echo 
+SELECT * FROM LanguageOfUser;
+\echo 'SkypeSchedules' ___________________________________
+\echo 
+SELECT * FROM SkypeSchedules;
+\echo 'Worksheets' ___________________________________
+\echo 
+SELECT * FROM Worksheets;
+\echo 'Textbooks' ___________________________________
+\echo 
+SELECT * FROM Textbooks;
+\echo 'TextbooksOf' ___________________________________
+\echo 
+SELECT * FROM TextbooksOf;
+\echo 'WebsiteExamples' ___________________________________
+\echo 
+SELECT * FROM WebsiteExamples;
+\echo 'WebsitesOf' ___________________________________
+\echo 
+SELECT * FROM WebsitesOf;
+\echo 'Marks' ___________________________________
+\echo 
+SELECT * FROM Marks;
+\echo 'FinishedWorksheets' ___________________________________
+\echo 
+SELECT * FROM FinishedWorksheets;
+\echo ____________________________________ Select End ____________________________________
+\echo 

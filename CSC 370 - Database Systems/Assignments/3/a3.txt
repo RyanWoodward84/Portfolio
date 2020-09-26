@@ -1,0 +1,125 @@
+/*
+Ryan Woodward
+V00857268
+Assignment 3
+CSC 370
+*/
+
+/*Creating the DROP statements*/
+DROP TABLE IF EXISTS FinishedWorksheets CASCADE;
+DROP TABLE IF EXISTS LanguageOfUser CASCADE;
+DROP TABLE IF EXISTS Languages CASCADE;
+DROP TABLE IF EXISTS Marks CASCADE;
+DROP TABLE IF EXISTS SkypeSchedules CASCADE;
+DROP TABLE IF EXISTS Students CASCADE;
+DROP TABLE IF EXISTS Teachers CASCADE;
+DROP TABLE IF EXISTS Textbooks CASCADE;
+DROP TABLE IF EXISTS TextbooksOf CASCADE;
+DROP TABLE IF EXISTS Users CASCADE;
+DROP TABLE IF EXISTS WebsiteExamples CASCADE;
+DROP TABLE IF EXISTS WebsitesOf CASCADE;
+DROP TABLE IF EXISTS Worksheets CASCADE;
+
+/*Creation of all the Tables*/
+CREATE TABLE Users (
+  userID INT PRIMARY KEY,
+  phoneNumber INT NOT NULL,
+  fullName VARCHAR(255) NOT NULL,
+  preferredName VARCHAR(255),
+  skypeID VARCHAR(255),
+  emailAddress VARCHAR(255) NOT NULL,
+  city VARCHAR(255) NOT NULL,
+  street VARCHAR(255) NOT NULL,
+  streetNumber INT NOT NULL,
+  country VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Students (
+  userID INT,
+  dateOfBirth DATE NOT NULL,
+  FOREIGN KEY (userID) REFERENCES Users(userID)
+);
+
+CREATE TABLE Teachers (
+  userID INT,
+  FOREIGN KEY (userID) REFERENCES Users(userID)
+);
+
+CREATE TABLE Languages (
+  language VARCHAR(255) PRIMARY KEY
+);
+
+CREATE TABLE LanguageOfUser (
+  userID INT REFERENCES Users(userID),
+  language VARCHAR(255) REFERENCES Languages(language)
+);
+
+
+CREATE TABLE SkypeSchedules(
+  userID INT,
+  weekday CHAR(2),
+  startTime TIME,
+  endTime TIME,
+  FOREIGN KEY (userID) REFERENCES Users(userID),
+  PRIMARY KEY (weekday, startTime, endTime)
+);
+
+CREATE TABLE Worksheets (
+  level INT,
+  topic VARCHAR(255),
+  version INT,
+  worksheetLanguage VARCHAR(255),
+  worksheetURL VARCHAR(2047) NOT NULL,
+  PRIMARY KEY (level, topic, version)
+);
+
+CREATE TABLE Textbooks (
+  textbookISBN INT PRIMARY KEY
+);
+
+CREATE TABLE TextbooksOf (
+    textbookISBN INT REFERENCES Textbooks(textbookISBN),
+    level INT,
+    topic VARCHAR(255),
+    version INT,
+    worksheetLanguage VARCHAR(255),
+    FOREIGN KEY (level, topic, version) REFERENCES Worksheets(level, topic, version)
+);
+
+CREATE TABLE WebsiteExamples (
+  websiteURL VARCHAR(255) PRIMARY KEY
+);
+
+CREATE TABLE WebsitesOf (
+  websiteURL VARCHAR(255) REFERENCES WebsiteExamples(websiteURL),
+  level INT,
+  topic VARCHAR(255),
+  version INT,
+  worksheetLanguage VARCHAR(255),
+  FOREIGN KEY (level, topic, version) REFERENCES Worksheets (level, topic, version)
+);
+
+CREATE TABLE Marks (
+  teacherUserID INT,
+  level INT,
+  topic VARCHAR(255),
+  version INT,
+  worksheetLanguage VARCHAR(255),
+  studentUserID INT,
+  FOREIGN KEY (teacherUserID) REFERENCES Users(userID),
+  FOREIGN KEY (studentUserID) REFERENCES Users(userID),
+  FOREIGN KEY (level, topic, version) REFERENCES Worksheets(level, topic, version)
+);
+
+CREATE TABLE FinishedWorksheets (
+  level INT,
+  topic VARCHAR(255),
+  version INT,
+  worksheetLanguage VARCHAR(255),
+  dateSubmitted DATE,
+  submittedSheetURL VARCHAR(2047),
+  markedSheetURL VARCHAR(2047),
+  grades FLOAT,
+  comments VARCHAR(2047),
+  FOREIGN KEY (level, topic, version) REFERENCES Worksheets(level, topic, version)
+)

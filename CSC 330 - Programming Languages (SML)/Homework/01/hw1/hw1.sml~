@@ -1,0 +1,89 @@
+(*  V00857268     *)
+(*  CSC 330 - A01 *)
+(*  Assignment #1 *)
+
+type DATE = (int * int * int)
+exception InvalidParameter
+
+(* This file is where your solutions go *)
+
+(* #1 *)
+	      
+fun is_older (d1: DATE, d2: DATE): bool =
+    if (#1 d1) < (#1 d2)
+    then true
+    else
+	if (#1 d1) > (#1 d2)
+	then false
+	else
+	    if (#2 d1) < (#2 d2)
+	    then true
+	    else
+		if (#2 d1) > (#2 d2)
+		then false
+		else
+		    if (#3 d1) < (#3 d2)
+		    then true
+		    else false
+			     
+(* #2 *)
+			     
+fun number_in_month (dl : DATE list, m : int): int =
+    if null dl
+    then 0
+    else
+	if #2 (hd dl) = m
+	then 1 + number_in_month(tl dl, m)
+	else number_in_month(tl dl, m)
+			    
+(* #3 *)
+			    
+fun number_in_months (dl : DATE list, ml : int list): int =
+    if null ml
+    then 0
+    else number_in_month(dl, hd ml) + number_in_months(dl, tl ml)
+
+(* #4 *)
+
+fun dates_in_month (dl : DATE list, m : int) : DATE list =
+    if null dl
+    then []
+    else
+	if #2 (hd dl) = m
+	then hd dl :: dates_in_month(tl dl, m)
+	else dates_in_month(tl dl, m)
+			   
+(* #5 *)
+
+fun dates_in_months (dl : DATE list, ml : int list) : DATE list =
+    if null ml
+    then []
+    else dates_in_month(dl, hd ml) @ dates_in_months(dl, tl ml)
+						    
+(* #6 *)
+
+fun get_nth (sl : string list, n : int) : string =
+    if null sl
+    then raise InvalidParameter
+    else
+	if n < 1
+	then raise InvalidParameter
+	else
+	    if n = 1
+	    then hd sl
+	    else get_nth(tl sl, n-1)
+
+(* #7 *)
+
+fun date_to_string (d : DATE) : string =
+    let
+	val ml = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+	val m = #2 (d)
+    in
+	if m < 1
+	then raise InvalidParameter
+	else get_nth(ml, m) ^ (Int.toString(#3 d) ^ (Int.toString(#1 d)
+    end
+
+
+							

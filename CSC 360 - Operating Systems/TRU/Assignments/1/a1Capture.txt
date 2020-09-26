@@ -1,0 +1,20 @@
+Script started on Thu 30 Apr 2020 04:05:13 PM PDT
+]0;comp341120@cs2:~[?1034h[comp341120@cs2 ~]$ ./smallprogram.out
+What is your name? Ryan
+How many times shall I print it? 5
+Ryan 
+Ryan 
+Ryan 
+Ryan 
+Ryan 
+]0;comp341120@cs2:~[comp341120@cs2 ~]$ java smallprogram
+Your first initial? 
+R
+Your last initial? 
+W
+Repeating 20 times.
+R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! R.W. likes Linux! 
+]0;comp341120@cs2:~[comp341120@cs2 ~]$ exit
+exit
+
+Script done on Thu 30 Apr 2020 04:05:57 PM PDT

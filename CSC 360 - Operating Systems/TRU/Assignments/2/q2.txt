@@ -1,0 +1,17 @@
+Ryan Woodward
+Assignment 2 - Question 2
+************************
+a) If you try to print a message after the exec* call, does it print it? Why? Why not? 
+
+The message will not be printed. This is because the exec* system call will load a binary file into memory. Once exec* is 
+called any existing code is destroyed and replaced by the address space of the new program.
+
+b) Who is the parent of your executable program? 
+
+The parent of your executable program is the bash shell. The process init is considered to be the parent process of all
+child processes.
+
+c) How would you change the code so that the child and parent run concurrently?
+
+In order to have the parent and child run concurrently the wait(NULL) command should be removed from testOS.c
+This will prevent the parent process from waiting for the child process to complete in order to resume execution.

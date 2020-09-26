@@ -1,0 +1,38 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+
+entity LabCircuit is 
+
+ port(
+		A0	: in	std_logic;
+		B0	: in	std_logic;
+		C0	: in	std_logic;
+		C1	: out	std_logic;
+		S0	: out	std_logic
+	);
+
+end LabCircuit;
+
+
+architecture arch1 of LabCircuit is
+
+begin
+
+
+
+-- x1 <= A0 nand B0;
+-- x2 <= A0 nor B0;
+-- x3 <= not C0;
+ 
+-- y1 <= NOT x2;
+-- y2 <= not x3;
+ 
+-- z1 <= x1 and x3;
+-- z2 <= x1 and y1;
+ 
+ C1 <= (A0 nor B0) nor ((A0 nand B0) and (not C0)) after 1ns;
+ S0 <= ((A0 nand B0) and (NOT (A0 nor B0))) xor (not (not C0)) after 1ns;
+ 
+
+end arch1;

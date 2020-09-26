@@ -1,0 +1,117 @@
+/*
+	Name: Brendan Ciccone
+	Id: V00871008
+	CSC 370 - Assignment 3
+	desc: This file fills in the database tables with data
+*/
+
+INSERT INTO USERS VALUES 
+	(0,1112123171,'Max Wilson','Maximillion','crottedebay','denton@hotmail.com','Laval','Cottage Lane',34,'Canada'),
+	(1,1488609888,'Tommy Erickson','Tom','onsetprada','formis@yahoo.ca','St. John"s','Birchpond Ave.',7651,'Canada'),
+	(2,1587768556,'Kerry Webb','Kerry','cartilagegucci','mxiao@comcast.net','Saskatoon','SE. Madison Avenue',671,'Canada'),
+	(3,1742148621,'Brendan Fletcher','Brendan','boeingfuvet','mhanoh@outlook.com','Saskatoon','Bridle Street',9873,'Canada'),
+	(4,1898908467,'Forrest Turner','Forrest ','hushgoogle','kjohnson@gmail.com','Saskatoon','Glenlake Ave.',7995,'Canada')
+	;
+	
+	
+INSERT INTO Students VALUES 
+	(0,'1998-04-01'),
+	(1,'1998-04-30'),
+	(2,'1995-05-05'),
+	(3,'1996-03-12')
+	;
+	
+INSERT INTO Teachers VALUES 
+	(4)
+	;
+	
+INSERT INTO Languages VALUES 
+	('English'),
+	('French'),
+	('German')
+	;
+
+INSERT INTO LanguageOfUser VALUES
+	(0,'English'),
+	(1,'English'),
+	(1,'French'),
+	(2,'English'),
+	(3,'English'),
+	(4,'English'),
+	(4,'German')
+	;
+
+INSERT INTO SkypeSchedules VALUES
+	(0,'SA','12:00 UTC','15:00 UTC'),
+	(1,'SA','11:15 UTC','14:45 UTC'),
+	(1,'SU','10:00 UTC','14:45 UTC'),
+	(2,'TH','12:00 UTC','13:00 UTC'),
+	(2,'FR','11:00 UTC','13:00 UTC'),
+	(3,'MO','09:15 UTC','13:30 UTC'),
+	(4,'SA','10:00 UTC','15:00 UTC'),
+	(4,'MO','10:00 UTC','15:00 UTC'),
+	(4,'TU','10:00 UTC','15:00 UTC'),
+	(4,'WE','10:00 UTC','15:00 UTC'),
+	(4,'TH','10:00 UTC','15:00 UTC'),
+	(4,'FR','10:00 UTC','15:00 UTC')
+	;
+
+INSERT INTO Worksheets VALUES
+	(1,'Algebra',1,'English','https://www.khanacademy.org/math/algebra-home'),
+	(2,'Algebra',1,'English','https://www.khanacademy.org/math/algebra-home'),
+	(3,'Algebra',1,'English','https://www.khanacademy.org/math/algebra-home'),
+	(4,'Algebra',1,'English','https://www.khanacademy.org/math/algebra-home'),
+	(5,'Algebra',1,'English','https://www.khanacademy.org/math/algebra-home'),
+	(6,'Algebra',1,'English','https://www.khanacademy.org/math/algebra-home'),
+	(7,'Algebra',1,'English','https://www.khanacademy.org/math/algebra-home'),
+	(8,'Algebra',1,'English','https://www.khanacademy.org/math/algebra-home'),
+	(6,'Trigonometry',1,'English','https://www.khanacademy.org/math/trigonometry'),
+	(7,'Trigonometry',1,'English','https://www.khanacademy.org/math/trigonometry'),
+	(8,'Trigonometry',1,'English','https://www.khanacademy.org/math/trigonometry'),
+	
+	(1,'Algebra',2,'English','https://www.khanacademy.org/math/algebra-home'),
+	(2,'Algebra',2,'English','https://www.khanacademy.org/math/algebra-home'),
+	(3,'Algebra',2,'English','https://www.khanacademy.org/math/algebra-home'),
+	(4,'Algebra',2,'English','https://www.khanacademy.org/math/algebra-home'),
+	(5,'Algebra',2,'English','https://www.khanacademy.org/math/algebra-home'),
+	(6,'Algebra',2,'English','https://www.khanacademy.org/math/algebra-home'),
+	(7,'Algebra',2,'English','https://www.khanacademy.org/math/algebra-home'),
+	(8,'Algebra',2,'English','https://www.khanacademy.org/math/algebra-home'),
+	(6,'Trigonometry',2,'English','https://www.khanacademy.org/math/trigonometry'),
+	(7,'Trigonometry',2,'English','https://www.khanacademy.org/math/trigonometry'),
+	(8,'Trigonometry',2,'English','https://www.khanacademy.org/math/trigonometry')
+	;
+
+INSERT INTO Textbooks VALUES
+	(1781234567),
+	(1561234567),
+	(1231234567)
+	;
+	
+INSERT INTO TextbooksOf VALUES
+	(1781234567,2,'Algebra',1,'English'),
+	(1561234567,5,'Algebra',1,'English'),
+	(1231234567,6,'Trigonometry',1,'English')
+	;
+
+INSERT INTO WebsiteExamples VALUES
+	('mathexamples.ca/item=37NDNCE40SGQBD'),
+	('mathexamples.ca/item=UNJUMTKAG1LA21'),
+	('mathexamples.ca/item=1XC5ASI4IYXYFA')
+	;
+	
+INSERT INTO WebsitesOf VALUES
+	('mathexamples.ca/item=37NDNCE40SGQBD',1,'Algebra',1,'English'),
+	('mathexamples.ca/item=UNJUMTKAG1LA21',3,'Algebra',1,'English'),
+	('mathexamples.ca/item=1XC5ASI4IYXYFA',7,'Algebra',1,'English')
+	;
+
+INSERT INTO Marks VALUES
+	(4,1,'Algebra',1,'English',0),
+	(4,2,'Algebra',1,'English',1)
+	;
+
+INSERT INTO FinishedWorksheets VALUES
+	(1,'Algebra',1,'English','2019-05-05','mathdb.ca/submissions/raw/item=QYM6HV7','mathdb.ca/submissions/marked/item=QYM6HV7-m',0),
+	(2,'Algebra',1,'English','2019-07-01','mathdb.ca/submissions/raw/item=A9DHN65','mathdb.ca/submissions/marked/item=A9DHN65-m',1)
+	;
